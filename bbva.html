@@ -1,882 +1,611 @@
 <!DOCTYPE html>
 <html lang="en">
+
+
     <head>
 
     <!-- metas -->
     <meta charset="utf-8">
-    <meta name="author" content="Satoshi Nakamoto" />
+    <meta name="author" content="bitcoin" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <meta name="keywords" content="Bank Logs" />
-    <meta name="description" content="Dark Net" />
+    <meta name="keywords" content="bank logs" />
+    <meta name="description" content="BBVA Bank" />
 
     <!-- title  -->
     <title>BBVA Bank</title>
 
+    <!-- favicon -->
     <link rel="shortcut icon" href="img/logos/favicon.png">
     <link rel="apple-touch-icon" href="img/logos/apple-touch-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="72x72" href="img/logos/apple-touch-icon-72x72.png">
     <link rel="apple-touch-icon" sizes="114x114" href="img/logos/apple-touch-icon-114x114.png">
-    <link rel="stylesheet" href="css/plugins/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/plugins/default.css" />
-    <link rel="stylesheet" href="css/plugins/fontawesome-all.min.css" />
-    <link rel="stylesheet" href="css/plugins/nav-menu.css" />
-    <link rel="stylesheet" href="css/plugins/owl.carousel.min.css" />
-    <link rel="stylesheet" href="css/plugins/et-line.css" />
-    <link href="css/switcher.css" rel="stylesheet">
+
+    <!-- common plugins -->
+    <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="plugins/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="plugins/icomoon/style.css" />
+    <link rel="stylesheet" href="plugins/uniform/css/default.css" />
+    <link rel="stylesheet" href="plugins/switchery/switchery.min.css" />
+
+    <!-- datatables plugin -->
+    <link rel="stylesheet" href="plugins/datatables/css/jquery.datatables.min.css" />
+    <link rel="stylesheet" href="plugins/datatables/css/jquery.datatables_themeroller.css" />
+
+    <!-- bootstrap-datepicker plugin -->
+    <link rel="stylesheet" href="plugins/bootstrap-datepicker/css/datepicker.css" />
+
     <!-- custom css -->
-    <link href="css/styles-5.css" rel="stylesheet" id="colors">
+    <link rel="stylesheet" href="css/styles.css" />
 
 </head>
 
-<body>
+<body class="page-sidebar-fixed page-header-fixed">
 
-<!-- start page loading -->
-<div id="preloader">
-<div class="row loader">
-<div class="loader-icon"></div>
-</div>
-</div>
-<!-- end page loading -->
-
-<!-- start main-wrapper section -->
-<div class="main-wrapper">
-
-<!-- start header ection -->
-<header class="header-style8"  id="home">
-    <div id="top-bar">
-    <div class="container-fluid">
-    <div class="row">
-        <div class="col-md-9 col-xs-12">
-            <div class="top-bar-info">
-                <ul>
-                    <li>
-                        <i class="fas fa-envelope"></i>
-                    </li>
-                    <li id="emailHolder">
-                      
-                    </li>
-                </ul>
-            </div>
+    <!-- start page loading -->
+    <div id="preloader">
+        <div class="row loader">
+            <div class="loader-icon"></div>
         </div>
     </div>
-    </div>
-    </div>
-    
-    <div class="navbar-default">
-    
-    
-    <div class="container-fluid">
-    <div class="row align-items-center">
-    <div class="col-12 col-lg-12">
-    <div class="menu_area alt-font">
-    <nav class="navbar navbar-expand-lg navbar-light no-padding">
-    
-    <div class="navbar-header navbar-header-custom">
-        <!-- Start Logo -->
-        <a href="javascript:void(0);" class="navbar-brand logodefault">
-            <img id="logo" src="img/logos/name.png" alt="">
-            <span id="jinaHolder">
-              DARKNET
-            </span>
-        </a>
-        <!-- End Logo -->
-    </div>
-    
-    <div class="navbar-toggler"></div>
-                                        
-<!-- Menu ea -->
-<ul class="navbar-nav ml-auto" id="nav" style="display: none;">
-    <li><a href="huntington">
-        <img src="img/partners/huntington.jpg" style="width: 20px; margin-right: 1px; border-radius: 4px;">
-        Huntington</a>
-    </li>
-    <li><a href="woodforest">
-        <img src="img/partners/woodforest.jpg" style="width: 20px; margin-right: 1px; border-radius: 4px;">
-        Woodforest</a></li>
-    <li><a href="pnc">
-        <img src="img/partners/pnc.jpg" style="width: 20px; margin-right: 1px; border-radius: 4px;">
-        PNC </a></li>
-    <li><a href="chase">
-        <img src="img/partners/chase.jpg" style="width: 20px; margin-right: 1px; border-radius: 4px;">
-        Chase</a></li>
-    <li><a href="nfcu">
-        <img src="img/partners/nfcu.jpg" style="width: 20px; margin-right: 1px; border-radius: 4px;">
-        NFCU</a></li>
-    <li><a href="chime">
-        <img src="img/partners/chime.jpg" style="width: 20px; margin-right: 1px; border-radius: 4px;">
-        Chime</a></li>                                                                                    
-    <li><a href="citi">
-        <img src="img/partners/citi.jpg" style="width: 20px; margin-right: 1px; border-radius: 4px;">
-        Citi</a></li>
-    <li><a href="bb&t">
-        <img src="img/partners/bbt.jpg" style="width: 20px; margin-right: 1px; border-radius: 4px;">
-        BB&T</a></li>
-    <li><a href="suntrust">
-        <img src="img/partners/suntrust.jpg" style="width: 20px; margin-right: 1px; border-radius: 4px;">
-        Suntrust</a></li>                                                                          
-</ul>
-<!-- End Men Area -->
-    
-    <!-- Start Atribute Navigation -->
-    <div class="attr-nav xs-margin-55px-right">
-        <ul>
-            <li class="dropdown sm-no-margin">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                    <img id="photoHolder" 
-                    src="img/t-6.jpg" 
-                    class="cart-thumb" 
-                    alt="" />
-                    <span class="badge bg-theme">
-                        1
-                    </span>
+    <!-- end page loading -->
+
+    <!-- start page container -->
+    <div class="page-container">
+               <!-- start page sidebar -->
+               <div class="page-sidebar">
+                <a class="logo-box" href="huntington.html">
+                    <span>BBVA Bank</span>
+                    <i class="icon-radio_button_unchecked" id="fixed-sidebar-toggle-button"></i>
+                    <i class="icon-close" id="sidebar-toggle-button-close"></i>
                 </a>
-                <ul class="dropdown-menu cart-list">
-                    <li class="total bg-theme">
-                        <span class="pull-left font-weight-600 font-size14" id="displayNameHolder">
-                           DARKNET
-                         </span>
-                         <a href="lockscreen" class="butn small btn-cart white">
-                            <span class="font-weight-600 font-size14">
-                                Logout 
-                            </span>
-                        </a>
-                    </li>
-                </ul>
-            </li>
-        </ul>
-    </div>
-    <!-- End Atribute Navigation -->
-    </nav>
-    </div>
-    </div>
-    </div>
-    </div>
-    </div>
+<div class="page-sidebar-inner">
+<div class="page-sidebar-menu">
+<ul class="accordion-menu">
+<li>
+    <a href="dashboard.html">
+        <i class="menu-icon icon-home4"></i><span>Home Page</span>
+    </a>
+</li>    
+<li>
+    <a href="huntington.html">
+        <i class="menu-icon">
+            <img src="images/huntington.jpg" class="kaimage">
+        </i>
+        <span>Huntington Bank</span>
+    </a>
+</li>
+<li>
+    <a href="woodforest.html">
+        <i class="menu-icon">
+            <img src="images/woodforest.jpg" class="kaimage">
+        </i>
+        <span>Woodforest Bank</span>
+    </a>
+</li>
+<li>
+    <a href="barclays.html">
+        <i class="menu-icon">
+            <img src="images/barclays.jpg" class="kaimage">
+        </i>
+        <span>Barclays Bank</span>
+    </a>
+</li>
+<li>
+    <a href="citi.html">
+        <i class="menu-icon">
+            <img src="images/citi.jpg" class="kaimage">
+        </i>
+        <span>Citi Bank</span>
+    </a>
+</li>
+<li>
+    <a href="bbt.html">
+        <i class="menu-icon">
+            <img src="images/bbt.jpg" class="kaimage">
+        </i>
+        <span>BB&T Bank</span>
+    </a>
+</li>
+<li>
+    <a href="bbva.html">
+        <i class="menu-icon">
+            <img src="images/bbva.jpg" class="kaimage">
+        </i>
+        <span>BBVA Bank</span>
+    </a>
+</li>
+<li>
+    <a href="chase.html">
+        <i class="menu-icon">
+            <img src="images/chase.jpg" class="kaimage">
+        </i>
+        <span>Chase Bank</span>
+    </a>
+</li>
+<li>
+    <a href="nfcu.html">
+        <i class="menu-icon">
+            <img src="images/nfcu.jpg" class="kaimage">
+        </i>
+        <span>NFCU Bank</span>
+    </a>
+</li>
+<li>
+    <a href="rbc.html">
+        <i class="menu-icon">
+            <img src="images/rbc.jpg" class="kaimage">
+        </i>
+        <span>RBC Bank</span>
+    </a>
+</li>
+<li>
+    <a href="pnc.html">
+        <i class="menu-icon">
+            <img src="images/pnc.jpg" class="kaimage">
+        </i>
+        <span>PNC Bank</span>
+    </a>
+</li>
+
+   
+<li>
+    <a href="suntrust.html">
+        <i class="menu-icon">
+            <img src="images/suntrust.jpg" class="kaimage">
+        </i>
+        <span>SunTrust Bank</span>
+    </a>
+</li>
+<li>
+    <a href="scotia.html">
+        <i class="menu-icon">
+            <img src="images/scotia.jpg" class="kaimage">
+        </i>
+        <span>Scotia Bank</span>
+    </a>
+</li>
+<li>
+    <a href="cashout.html">
+        <i class="menu-icon">
+            <img src="images/paypal.jpg" class="kaimage">
+        </i>
+        <span>Cashout Method</span>
+    </a>
+</li>
+
+<li class="menu-divider"></li>
+<li>
+    <a href="javascript:void(0);">
+        <i class="menu-icon icon-public"></i>
+        <span>Bank Logs</span>
+        <span class="label label-danger">7.1</span>
+    </a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+
+<!-- start page content -->
+<div class="page-content">
+    <!-- start page header -->
+    <div class="page-header">
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+<!-- Brand and toggle get grouped for better mobile display -->
+<div class="navbar-header">
+<div class="logo-sm">
+<a href="javascript:void(0)" id="sidebar-toggle-button" style="padding: 10px 15px; background: white; border-radius: 5px;">
+    <i class="fa fa-angle-right" style="font-size: 1.2rem;  color: black;"></i>
+</a>
+<a class="logo-box" href="dashboard.html">
+    <span id="displayNameHolder">HOME PAGE</span>
     
-    </header>
-    <!-- end header section -->
+</a>
+<ul class="nav navbar-nav navbar-right">
+<li style="float: right;" class="dropdown user-dropdown">
+    <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+        <img src="images/07.gif" id="photoHolder" alt="" class="rounded-circle keimage">
+    </a>
+       <ul class="dropdown-menu dropdown-lg dropdown-content">
+        <li style="padding: 5px;" class="drop-title">
+            <a style="font-weight: 700; color: red; font-size: 1.2rem;" href="lockscreen.html">
+                Log Out
+            </a>
+        </li>
+        <li class="drop-title" style="padding: 5px">
+            <button type="button" class="btn btn-info" style="font-size: 1.2rem; font-weight: 700; color: #000;" data-toggle="modal" data-target="#exampleModal" data-whatever="@bankloginusa">
+                Telegram Channel
+            </button>
+        </li>
+        <li class="drop-title" style="padding: 5px">
+            <button type="button" class="btn btn-bitcoin" style="font-size: 1.2rem; font-weight: 700;" data-toggle="modal" data-target="#myModal">
+                Notifications
+            </button>
+        </li>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- start project section -->
-<section id="banklogs" style="padding: 0;">
-<div class="container-fluid">
-<div class="section-heading">
-    <h3>
-    </h3>
-</div>
-<div class="row">
-<!-- Start links -->
-<div class="filtering col-sm-12 text-center">
-    <span data-filter='*' class="active">
-        ALL
-        </span>
-        <span data-filter='.checking'>
-        CHECKING
-        </span>
-        <span data-filter='.savings'>
-        SAVINGS
-        </span>
-</div>
-<!-- End links -->
-<div class="gallery text-center width-100">
-<div class="col-lg-2 col-md-4 col-6 items checking">
-<div class="pricing-list highlight">
-<h4 class="text-white">Checking</h4>
-<i class="icon-wallet"></i>
-<div class="pricing-list-price">
-<h2 class="text-white">$14,315</h2>
-</div>
-<ul>
-<li class="text-white">Bbvausa.com</li>
-<li class="text-white">Name + Address</li>
-<li class="text-white">Login + Password</li>
-<li class="text-white">Email Access</li>
+    </ul>  
+</li>    
 </ul>
-<div class="pricing-list-button">
-    <form action="invoice" method="GET">
-    <input type="hidden" name="item_price" value="287">
-    <input type="hidden" name="item_balance" value="14,315">
-    <input type="hidden" name="item_bank" value="BBVA Bank">
-    <input type="hidden" name="item_type" value="Checking Account">
-    <input type="hidden" name="item_website" value="Bbvausa.com [Login:Password]">
-    <input type="hidden" name="item_details" value="Name + Address">
-    <input type="hidden" name="item_extra" value="Email Access">
-    <input type="hidden" name="item_image" value="img/partners/bbva.jpg">
-    <button type="submit" class="btn text-center">
-        <i class="fas fa-cart-plus margin-10px-right"></i>
-         $287
-        </span>
-    </button>
-</form>
-</div>
-</div>
-</div>
-<div class="col-lg-2 col-md-4 col-6 items savings">
-<div class="pricing-list">
-<h4>Savings</h4>
-<i class="icon-presentation"></i>
-<div class="pricing-list-price">
-<h2>$14,619</h2>
-</div>
-<ul>
-    <li>Bbvausa.com</li>
-<li>Name + Address</li>
-<li>Login + Password</li>
-<li>Email Access</li>
-</ul>
-<div class="pricing-list-button">
-    <form action="invoice" method="GET">
-    <input type="hidden" name="item_price" value="291">
-    <input type="hidden" name="item_balance" value="14,619">
-    <input type="hidden" name="item_bank" value="BBVA Bank">
-    <input type="hidden" name="item_type" value="Savings Account">
-    <input type="hidden" name="item_website" value="Bbvausa.com [Login:Password]">
-    <input type="hidden" name="item_details" value="Name + Address">
-    <input type="hidden" name="item_extra" value="Email Access">
-    <input type="hidden" name="item_image" value="img/partners/bbva.jpg">
-    <button type="submit" class="btn text-center">
-        <i class="fas fa-cart-plus margin-10px-right"></i>
-             $291
-        </span>
-    </button>
-</form>
-</div>
-</div>
-</div>
-<div class="col-lg-2 col-md-4 col-6 items savings">
-<div class="pricing-list">
-<h4>Savings </h4>
-<i class="icon-presentation"></i>
-<div class="pricing-list-price">
-<h2>$15,158</h2>
-</div>
-<ul>
-    <li>Bbvausa.com</li>
-<li>Name + Address</li>
-<li>Login + Password</li>
-<li>Email Access</li>
-</ul>
-<div class="pricing-list-button">
-    <form action="invoice" method="GET">
-    <input type="hidden" name="item_price" value="303">
-    <input type="hidden" name="item_balance" value="15,158">
-    <input type="hidden" name="item_bank" value="BBVA Bank">
-    <input type="hidden" name="item_type" value="Savings Account">
-    <input type="hidden" name="item_website" value="Bbvausa.com [Login:Password]">
-    <input type="hidden" name="item_details" value="Name + Address">
-    <input type="hidden" name="item_extra" value="Email Access">
-    <input type="hidden" name="item_image" value="img/partners/bbva.jpg">
-    <button type="submit" class="btn text-center">
-        <i class="fas fa-cart-plus margin-10px-right"></i>
-         $303
-        </span>
-    </button>
-</form>
-</div>
-</div>
-</div>
-<div class="col-lg-2 col-md-4 col-6 items checking">
-<div class="pricing-list highlight">
-<h4 class="text-white">Checking</h4>
-<i class="icon-wallet"></i>
-<div class="pricing-list-price">
-<h2 class="text-white">$15,867</h2>
-</div>
-<ul>
-    <li class="text-white">Bbvausa.com</li>
-<li class="text-white">Name + Address</li>
-<li class="text-white">Login + Password</li>
-<li class="text-white">Email Access</li>
-</ul>
-<div class="pricing-list-button">
-    <form action="invoice" method="GET">
-    <input type="hidden" name="item_price" value="377">
-    <input type="hidden" name="item_balance" value="15,867">
-    <input type="hidden" name="item_bank" value="BBVA Bank">
-    <input type="hidden" name="item_type" value="Checking Account">
-    <input type="hidden" name="item_website" value="Bbvausa.com [Login:Password]">
-    <input type="hidden" name="item_details" value="Name + Address">
-    <input type="hidden" name="item_extra" value="Email Access">
-    <input type="hidden" name="item_image" value="img/partners/bbva.jpg">
-    <button type="submit" class="btn text-center">
-        <i class="fas fa-cart-plus margin-10px-right"></i>
-             $377
-        </span>
-    </button>
-</form>
-</div>
-</div>
-</div>
-<div class="col-lg-2 col-md-4 col-6 items checking">
-<div class="pricing-list highlight">
-<h4 class="text-white">Checking</h4>
-<i class="icon-wallet"></i>
-<div class="pricing-list-price">
-<h2 class="text-white">$16,750</h2>
-</div>
-<ul>
-    <li class="text-white">Bbvausa.com</li>
-<li class="text-white">Name + Address</li>
-<li class="text-white">Login + Password</li>
-<li class="text-white">Email Access</li>
-</ul>
-<div class="pricing-list-button">
-    <form action="invoice" method="GET">
-    <input type="hidden" name="item_price" value="335">
-    <input type="hidden" name="item_balance" value="16,750">
-    <input type="hidden" name="item_bank" value="BBVA Bank">
-    <input type="hidden" name="item_type" value="Checking Account">
-    <input type="hidden" name="item_website" value="Bbvausa.com [Login:Password]">
-    <input type="hidden" name="item_details" value="Name + Address">
-    <input type="hidden" name="item_extra" value="Email Access">
-    <input type="hidden" name="item_image" value="img/partners/bbva.jpg">
-    <button type="submit" class="btn text-center">
-        <i class="fas fa-cart-plus margin-10px-right"></i>
-         $335
-        </span>
-    </button>
-</form>
-</div>
-</div>
+</div>        
 </div>
 
-<div class="col-lg-2 col-md-4 col-6 items savings">
-<div class="pricing-list">
-<h4>Savings</h4>
-<i class="icon-presentation"></i>
-<div class="pricing-list-price">
-<h2>$19,384</h2>
-</div>
-<ul>
-    <li>Bbvausa.com</li>
-<li>Name + Address</li>
-<li>Login + Password</li>
-<li>Email Access</li>
-</ul>
-<div class="pricing-list-button">
-    <form action="invoice" method="GET">
-    <input type="hidden" name="item_price" value="390">
-    <input type="hidden" name="item_balance" value="19,384">
-    <input type="hidden" name="item_bank" value="BBVA Bank">
-    <input type="hidden" name="item_type" value="Savings Account">
-    <input type="hidden" name="item_website" value="Bbvausa.com [Login:Password]">
-    <input type="hidden" name="item_details" value="Name + Address">
-    <input type="hidden" name="item_extra" value="Email Access">
-    <input type="hidden" name="item_image" value="img/partners/bbva.jpg">
-    <button type="submit" class="btn text-center">
-        <i class="fas fa-cart-plus margin-10px-right"></i>
-         $390
-        </span>
-    </button>
-</form>
-</div>
-</div>
-</div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
 
-
-<div class="col-lg-2 col-md-4 col-6 items checking">
-<div class="pricing-list highlight">
-<h4 class="text-white">Checking</h4>
-<i class="icon-wallet"></i>
-<div class="pricing-list-price">
-<h2 class="text-white">$23,517</h2>
-</div>
-<ul>
-    <li class="text-white">Bbvausa.com</li>
-<li class="text-white">Name + Address</li>
-<li class="text-white">Login + Password</li>
-<li class="text-white">Email Access</li>
-</ul>
-<div class="pricing-list-button">
-    <form action="invoice" method="GET">
-    <input type="hidden" name="item_price" value="430">
-    <input type="hidden" name="item_balance" value="23,517">
-    <input type="hidden" name="item_bank" value="BBVA Bank">
-    <input type="hidden" name="item_type" value="Checking Account">
-    <input type="hidden" name="item_website" value="Bbvausa.com [Login:Password]">
-    <input type="hidden" name="item_details" value="Name + Address">
-    <input type="hidden" name="item_extra" value="Email Access">
-    <input type="hidden" name="item_image" value="img/partners/bbva.jpg">
-    <button type="submit" class="btn text-center">
-        <i class="fas fa-cart-plus margin-10px-right"></i>
-         $430
-        </span>
-    </button>
-</form>
-</div>
-</div>
-</div>
-
-
-<div class="col-lg-2 col-md-4 col-6 items savings">
-<div class="pricing-list">
-<h4>Savings</h4>
-<i class="icon-presentation"></i>
-<div class="pricing-list-price">
-<h2>$28,510</h2>
-</div>
-<ul>
-    <li>Bbvausa.com</li>
-<li>Name + Address</li>
-<li>Login + Password</li>
-<li>Email Access</li>
-</ul>
-<div class="pricing-list-button">
-    <form action="invoice" method="GET">
-    <input type="hidden" name="item_price" value="571">
-    <input type="hidden" name="item_balance" value="28,510">
-    <input type="hidden" name="item_bank" value="BBVA Bank">
-    <input type="hidden" name="item_type" value="Savings Account">
-    <input type="hidden" name="item_website" value="Bbvausa.com [Login:Password]">
-    <input type="hidden" name="item_details" value="Name + Address">
-    <input type="hidden" name="item_extra" value="Email Access">
-    <input type="hidden" name="item_image" value="img/partners/bbva.jpg">
-    <button type="submit" class="btn text-center">
-        <i class="fas fa-cart-plus margin-10px-right"></i>
-         $571
-        </span>
-    </button>
-</form>
-</div>
-</div>
-</div>
-
-
-<div class="col-lg-2 col-md-4 col-6 items savings">
-<div class="pricing-list">
-<i class="icon-presentation"></i>
-<h4>Savings</h4>
-<div class="pricing-list-price">
-<h2>$29,403</h2>
-</div>
-<ul>
-    <li>Bbvausa.com</li>
-<li>Name + Address</li>
-<li>Login + Password</li>
-<li>Email Access</li>
-</ul>
-<div class="pricing-list-button">
-    <form action="invoice" method="GET">
-    <input type="hidden" name="item_price" value="590">
-    <input type="hidden" name="item_balance" value="29,403">
-    <input type="hidden" name="item_bank" value="BBVA Bank">
-    <input type="hidden" name="item_type" value="Savings Account">
-    <input type="hidden" name="item_website" value="Bbvausa.com [Login:Password]">
-    <input type="hidden" name="item_details" value="Name + Address">
-    <input type="hidden" name="item_extra" value="Email Access">
-    <input type="hidden" name="item_image" value="img/partners/bbva.jpg">
-    <button type="submit" class="btn text-center">
-        <i class="fas fa-cart-plus margin-10px-right"></i>
-         $590
-        </span>
-    </button>
-</form>
-</div>
-</div>
-</div>
-
-
-<div class="col-lg-2 col-md-4 col-6 items checking">
-<div class="pricing-list highlight">
-<h4 class="text-white">Checking</h4>
-<i class="icon-wallet"></i>
-<div class="pricing-list-price">
-<h2 class="text-white">$30,850</h2>
-</div>
-<ul>
-    <li class="text-white">Bbvausa.com</li>
-<li class="text-white">Name + Address</li>
-<li class="text-white">Login + Password</li>
-<li class="text-white">Email Access</li>
-</ul>
-<div class="pricing-list-button">
-    <form action="invoice" method="GET">
-    <input type="hidden" name="item_price" value="617">
-    <input type="hidden" name="item_balance" value="30,850">
-    <input type="hidden" name="item_bank" value="BBVA Bank">
-    <input type="hidden" name="item_type" value="Checking Account">
-    <input type="hidden" name="item_website" value="Bbvausa.com [Login:Password]">
-    <input type="hidden" name="item_details" value="Name + Address">
-    <input type="hidden" name="item_extra" value="Email Access">
-    <input type="hidden" name="item_image" value="img/partners/bbva.jpg">
-    <button type="submit" class="btn text-center">
-        <i class="fas fa-cart-plus margin-10px-right"></i>
-         $617
-        </span>
-    </button>
-</form>
-</div>
-</div>
-</div>
-
-<div class="col-lg-2 col-md-4 col-6 items checking">
-<div class="pricing-list highlight">
-<h4 class="text-white">Checking</h4>
-<i class="icon-wallet"></i>
-<div class="pricing-list-price">
-<h2 class="text-white">$32,705</h2>
-</div>
-<ul>
-    <li class="text-white">Bbvausa.com</li>
-<li class="text-white">Name + Address</li>
-<li class="text-white">Login + Password</li>
-<li class="text-white">Email Access</li>
-</ul>
-<div class="pricing-list-button">
-    <form action="invoice" method="GET">
-    <input type="hidden" name="item_price" value="629">
-    <input type="hidden" name="item_balance" value="32,705">
-    <input type="hidden" name="item_bank" value="BBVA Bank">
-    <input type="hidden" name="item_type" value="Checking Account">
-    <input type="hidden" name="item_website" value="Bbvausa.com [Login:Password]">
-    <input type="hidden" name="item_details" value="Name + Address">
-    <input type="hidden" name="item_extra" value="Email Access">
-    <input type="hidden" name="item_image" value="img/partners/bbva.jpg">
-    <button type="submit" class="btn text-center">
-        <i class="fas fa-cart-plus margin-10px-right"></i>
-         $629
-        </span>
-    </button>
-</form>
-</div>
-</div>
-</div>
-
-
-<div class="col-lg-2 col-md-4 col-6 items checking">
-<div class="pricing-list highlight">
-<h4 class="text-white">Checking</h4>
-<i class="icon-wallet"></i>
-<div class="pricing-list-price">
-<h2 class="text-white">$35,117</h2>
-</div>
-<ul>
-    <li class="text-white">Bbvausa.com</li>
-<li class="text-white">Name + Address</li>
-<li class="text-white">Login + Password</li>
-<li class="text-white">Email Access</li>
-</ul>
-<div class="pricing-list-button">
-    <form action="invoice" method="GET">
-    <input type="hidden" name="item_price" value="690">
-    <input type="hidden" name="item_balance" value="35,117">
-    <input type="hidden" name="item_bank" value="BBVA Bank">
-    <input type="hidden" name="item_type" value="Checking Account">
-    <input type="hidden" name="item_website" value="Bbvausa.com [Login:Password]">
-    <input type="hidden" name="item_details" value="Name + Address">
-    <input type="hidden" name="item_extra" value="Email Access">
-    <input type="hidden" name="item_image" value="img/partners/bbva.jpg">
-    <button type="submit" class="btn text-center">
-        <i class="fas fa-cart-plus margin-10px-right"></i>
-         $690
-        </span>
-    </button>
-</form>
-</div>
-</div>
-</div>
-
-
-
-<div class="col-lg-2 col-md-4 col-6 items checking">
-    <div class="pricing-list highlight">
-    <h4 class="text-white">Checking</h4>
-    <i class="icon-wallet"></i>
-    <div class="pricing-list-price">
-    <h2 class="text-white">$35,943</h2>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li><a href="javascript:void(0)" id="collapsed-sidebar-toggle-button"><i class="fa fa-bars"></i></a></li>
+                        <li><a href="javascript:void(0)" id="toggle-fullscreen"><i class="fa fa-expand"></i></a></li>
+                 
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">                
+                        <li class="dropdown">
+                            <button type="button" class="btn btn-info" style="font-size: 1.2rem; font-weight: 700; color: #000;" data-toggle="modal" data-target="#exampleModal" data-whatever="@bankloginusa">
+                                Telegram Channel
+                            </button>
+                            <button type="button" class="btn btn-bitcoin" style="font-size: 1.2rem; font-weight: 700;" data-toggle="modal" data-target="#myModal">
+                                Notifications
+                            </button>
+                        </li>
+                        <li style="padding: 5px;" class="dropdown user-dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                <img src="img/avatars/user-dropdown.jpg" alt="" class="rounded-circle">
+                            </a>
+                                <ul class="dropdown-menu">
+                                    <li><a style="font-weight: 700; font-size: 1.1rem; color: red;" href="lockscreen.html">Log Out</a></li>
+                                </ul>
+                        </li>
+                    </ul>
+                </div>
+                <!-- navbar-collapse -->
+            </div>
+            <!-- /.container-fluid -->
+        </nav>
     </div>
-    <ul>
-        <li class="text-white">Bbvausa.com</li>
-    <li class="text-white">Name + Address</li>
-    <li class="text-white">Login + Password</li>
-    <li class="text-white">Email Access</li>
-    </ul>
-    <div class="pricing-list-button">
-        <form action="invoice" method="GET">
-        <input type="hidden" name="item_price" value="710">
-        <input type="hidden" name="item_balance" value="35,943">
-        <input type="hidden" name="item_bank" value="BBVA Bank">
-        <input type="hidden" name="item_type" value="Checking Account">
-        <input type="hidden" name="item_website" value="Bbvausa.com [Login:Password]">
-        <input type="hidden" name="item_details" value="Name + Address">
-        <input type="hidden" name="item_extra" value="Email Access">
-        <input type="hidden" name="item_image" value="img/partners/bbva.jpg">
-        <button type="submit" class="btn text-center">
-            <i class="fas fa-cart-plus margin-10px-right"></i>
-             $710
-            </span>
-        </button>
+    <!-- end page header -->
+
+
+            <!-- start page inner -->
+            <div class="page-inner">
+                <!-- start page main wrapper -->
+                <div id="main-wrapper">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="cark card-white">
+                                <div class="card-body">
+                                    <div class="table-responsive table-bordered">
+
+<table id="example" class="display table table-success" style="width:100%">
+<thead>
+    <tr>
+    <th>Balance</th>
+    <th>Info</th>
+    <th>BUY</th>
+    </tr>
+</thead>
+<tbody>
+<tr>
+    <td>$28,514</td>
+    <td>MONEYMARKET ACCOUNT bbvausa.com [Login:Password]+ Name+AN/RN+ [Email access]</td>
+    <td>
+    <form action="invoice.html" method="GET">
+    <input type="hidden" name="prod_id" value="571">
+    <input type="hidden" name="prod_bank" value="BBVA [MONEYMARKET ACCOUNT]">
+    <input type="hidden" name="prod_balance" value="Balance: $28,514">
+    <input type="hidden" name="prod_type" value="bbvausa.com[Login:Password]+Name+AN/RN+[Email access]">
+    <button type="submit" class="btn btn-success btn-addon">
+        <i class="fas fa-cart-plus" style="margin-right: 5px;"></i>
+        $571
+    </button>
     </form>
-    </div>
-    </div>
-    </div>
+    </td>
+</tr> 
     
-    
-    <div class="col-lg-2 col-md-4 col-6 items savings">
-    <div class="pricing-list">
-    <h4>Savings</h4>
-    <i class="icon-presentation"></i>
-    <div class="pricing-list-price">
-    <h2>$38,403</h2>
-    </div>
-    <ul>
-        <li>Bbvausa.com</li>
-    <li>Name + Address</li>
-    <li>Login + Password</li>
-    <li>Email Access</li>
-    </ul>
-    <div class="pricing-list-button">
-        <form action="invoice" method="GET">
-        <input type="hidden" name="item_price" value="763">
-        <input type="hidden" name="item_balance" value="38,403">
-        <input type="hidden" name="item_bank" value="BBVA Bank">
-        <input type="hidden" name="item_type" value="Savings Account">
-        <input type="hidden" name="item_website" value="Bbvausa.com [Login:Password]">
-        <input type="hidden" name="item_details" value="Name + Address">
-        <input type="hidden" name="item_extra" value="Email Access">
-        <input type="hidden" name="item_image" value="img/partners/bbva.jpg">
-        <button type="submit" class="btn text-center">
-            <i class="fas fa-cart-plus margin-10px-right"></i>
-             $763
-            </span>
-        </button>
+<tr>
+    <td>$15,177</td>
+    <td>SAVINGS ACCOUNT bbvausa.com [Login:Password]+ Name+AN/RN+ [Email access]</td>
+    <td>
+    <form action="invoice.html" method="GET">
+    <input type="hidden" name="prod_id" value="303">
+    <input type="hidden" name="prod_bank" value="BBVA [SAVINGS ACCOUNT]">
+    <input type="hidden" name="prod_balance" value="Balance: $15,177">
+    <input type="hidden" name="prod_type" value="bbvausa.com[Login:Password]+Name+AN/RN+[Email access]">
+    <button type="submit" class="btn btn-success btn-addon">
+        <i class="fas fa-cart-plus" style="margin-right: 5px;"></i>
+        $303
+    </button>
     </form>
-    </div>
-    </div>
-    </div>
+    </td>
+</tr> 
     
-    
-    <div class="col-lg-2 col-md-4 col-6 items savings">
-    <div class="pricing-list">
-    <i class="icon-presentation"></i>
-    <h4>Savings</h4>
-    <div class="pricing-list-price">
-    <h2>$42,724</h2>
-    </div>
-    <ul>
-        <li>Bbvausa.com</li>
-    <li>Name + Address</li>
-    <li>Login + Password</li>
-    <li>Email Access</li>
-    </ul>
-    <div class="pricing-list-button">
-        <form action="invoice" method="GET">
-        <input type="hidden" name="item_price" value="836">
-        <input type="hidden" name="item_balance" value="42,724">
-        <input type="hidden" name="item_bank" value="BBVA Bank">
-        <input type="hidden" name="item_type" value="Savings Account">
-        <input type="hidden" name="item_website" value="Bbvausa.com [Login:Password]">
-        <input type="hidden" name="item_details" value="Name + Address">
-        <input type="hidden" name="item_extra" value="Email Access">
-        <input type="hidden" name="item_image" value="img/partners/bbva.jpg">
-        <button type="submit" class="btn text-center">
-            <i class="fas fa-cart-plus margin-10px-right"></i>
-             $836
-            </span>
-        </button>
+<tr>
+    <td>$14,315</td>
+    <td>CHECKING ACCOUNT bbvausa.com [Login:Password]+ Name+AN/RN+ [Email access]</td>
+    <td>
+    <form action="invoice.html" method="GET">
+    <input type="hidden" name="prod_id" value="287">
+    <input type="hidden" name="prod_bank" value="BBVA [CHECKING ACCOUNT]">
+    <input type="hidden" name="prod_balance" value="Balance: $14,315">
+    <input type="hidden" name="prod_type" value="bbvausa.com[Login:Password]+Name+AN/RN+[Email access]">
+    <button type="submit" class="btn btn-success btn-addon">
+        <i class="fas fa-cart-plus" style="margin-right: 5px;"></i>
+        $287
+    </button>
     </form>
-    </div>
-    </div>
-    </div>
+    </td>
+</tr>
     
-    
-    <div class="col-lg-2 col-md-4 col-6 items checking">
-    <div class="pricing-list highlight">
-    <h4 class="text-white">Checking</h4>
-    <i class="icon-wallet"></i>
-    <div class="pricing-list-price">
-    <h2 class="text-white">$45,217</h2>
-    </div>
-    <ul>
-        <li class="text-white">Bbvausa.com</li>
-    <li class="text-white">Name + Address</li>
-    <li class="text-white">Login + Password</li>
-    <li class="text-white">Email Access</li>
-    </ul>
-    <div class="pricing-list-button">
-        <form action="invoice" method="GET">
-        <input type="hidden" name="item_price" value="894">
-        <input type="hidden" name="item_balance" value="45,217">
-        <input type="hidden" name="item_bank" value="BBVA Bank">
-        <input type="hidden" name="item_type" value="Checking Account">
-        <input type="hidden" name="item_website" value="Bbvausa.com [Login:Password]">
-        <input type="hidden" name="item_details" value="Name + Address">
-        <input type="hidden" name="item_extra" value="Email Access">
-        <input type="hidden" name="item_image" value="img/partners/bbva.jpg">
-        <button type="submit" class="btn text-center">
-            <i class="fas fa-cart-plus margin-10px-right"></i>
-             $894
-            </span>
-        </button>
+<tr>
+    <td>$30,863</td>
+    <td>MONEYMARKET ACCOUNT bbvausa.com [Login:Password]+ Name+AN/RN+ [Email access]</td>
+    <td>
+    <form action="invoice.html" method="GET">
+    <input type="hidden" name="prod_id" value="616">
+    <input type="hidden" name="prod_bank" value="BBVA [MONEYMARKET ACCOUNT]">
+    <input type="hidden" name="prod_balance" value="Balance: $30,863">
+    <input type="hidden" name="prod_type" value="bbvausa.com[Login:Password]+Name+AN/RN+[Email access]">
+    <button type="submit" class="btn btn-success btn-addon">
+        <i class="fas fa-cart-plus" style="margin-right: 5px;"></i>
+        $616
+    </button>
     </form>
-    </div>
-    </div>
-    </div>
+    </td>
+</tr> 
     
-    <div class="col-lg-2 col-md-4 col-6 items checking">
-    <div class="pricing-list highlight">
-    <h4 class="text-white">Checking</h4>
-    <i class="icon-wallet"></i>
-    <div class="pricing-list-price">
-    <h2 class="text-white">$53,906</h2>
-    </div>
-    <ul>
-        <li class="text-white">Bbvausa.com</li>
-    <li class="text-white">Name + Address</li>
-    <li class="text-white">Login + Password</li>
-    <li class="text-white">Email Access</li>
-    </ul>
-    <div class="pricing-list-button">
-        <form action="invoice" method="GET">
-        <input type="hidden" name="item_price" value="955">
-        <input type="hidden" name="item_balance" value="53,906">
-        <input type="hidden" name="item_bank" value="BBVA Bank">
-        <input type="hidden" name="item_type" value="Checking Account">
-        <input type="hidden" name="item_website" value="Bbvausa.com [Login:Password]">
-        <input type="hidden" name="item_details" value="Name + Address">
-        <input type="hidden" name="item_extra" value="Email Access">
-        <input type="hidden" name="item_image" value="img/partners/bbva.jpg">
-        <button type="submit" class="btn text-center">
-            <i class="fas fa-cart-plus margin-10px-right"></i>
-             $955
-            </span>
-        </button>
+<tr>
+    <td>$19,384</td>
+    <td>CHECKING ACCOUNT bbvausa.com [Login:Password]+ Name+AN/RN+ [Email access]</td>
+    <td>
+    <form action="invoice.html" method="GET">
+    <input type="hidden" name="prod_id" value="386">
+    <input type="hidden" name="prod_bank" value="BBVA [CHECKING ACCOUNT]">
+    <input type="hidden" name="prod_balance" value="Balance: $19,384">
+    <input type="hidden" name="prod_type" value="bbvausa.com[Login:Password]+Name+AN/RN+[Email access]">
+    <button type="submit" class="btn btn-success btn-addon">
+        <i class="fas fa-cart-plus" style="margin-right: 5px;"></i>
+        $386
+    </button>
     </form>
-    </div>
-    </div>
-    </div>
+    </td>
+</tr> 
     
+<tr>
+    <td>$30,851</td>
+    <td>SAVINGS ACCOUNT bbvausa.com [Login:Password]+ Name+ AN/RN+ [NO email attached]</td>
+    <td>
+    <form action="invoice.html" method="GET">
+    <input type="hidden" name="prod_id" value="617">
+    <input type="hidden" name="prod_bank" value="BBVA [SAVINGS ACCOUNT]">
+    <input type="hidden" name="prod_balance" value="Balance: $30,851">
+    <input type="hidden" name="prod_type" value="bbvausa.com[Login:Password]+ Name+ AN/RN +[NO email attached]">
+    <button type="submit" class="btn btn-success btn-addon">
+        <i class="fas fa-cart-plus" style="margin-right: 5px;"></i>
+        $617
+    </button>
+    </form>
+    </td>
+</tr>
+    
+    
+<tr>
+    <td>$29,503</td>
+    <td>CHECKING ACCOUNT bbvausa.com [Login:Password]+ Name+AN/RN+ [Email access]</td>
+    <td>
+    <form action="invoice.html" method="GET">
+    <input type="hidden" name="prod_id" value="590">
+    <input type="hidden" name="prod_bank" value="BBVA [CHECKING ACCOUNT]">
+    <input type="hidden" name="prod_balance" value="Balance: $29,503">
+    <input type="hidden" name="prod_type" value="bbvausa.com[Login:Password]+Name+AN/RN+[Email access]">
+    <button type="submit" class="btn btn-success btn-addon">
+        <i class="fas fa-cart-plus" style="margin-right: 5px;"></i>
+        $590
+    </button>
+    </form>
+    </td>
+</tr> 
+    
+<tr>
+    <td>$23,517</td>
+    <td>MONEYMARKET ACCOUNT bbvausa.com [Login:Password]+ Name+AN/RN+ [Email access]</td>
+    <td>
+    <form action="invoice.html" method="GET">
+    <input type="hidden" name="prod_id" value="230">
+    <input type="hidden" name="prod_bank" value="BBVA [MONEYMARKET ACCOUNT]">
+    <input type="hidden" name="prod_balance" value="Balance: $23,517">
+    <input type="hidden" name="prod_type" value="bbvausa.com[Login:Password]+Name+AN/RN+[Email access]">
+    <button type="submit" class="btn btn-success btn-addon">
+        <i class="fas fa-cart-plus" style="margin-right: 5px;"></i>
+        $430
+    </button>
+    </form>
+    </td>
+</tr> 
+    
+<tr>
+    <td>$15,158</td>
+    <td>SAVINGS ACCOUNT bbvausa.com [Login:Password]+ Name+AN/RN+ [Email access]</td>
+    <td>
+    <form action="invoice.html" method="GET">
+    <input type="hidden" name="prod_id" value="303">
+    <input type="hidden" name="prod_bank" value="BBVA [SAVINGS ACCOUNT]">
+    <input type="hidden" name="prod_balance" value="Balance: $15,158">
+    <input type="hidden" name="prod_type" value="bbvausa.com[Login:Password]+Name+AN/RN+[Email access]">
+    <button type="submit" class="btn btn-success btn-addon">
+        <i class="fas fa-cart-plus" style="margin-right: 5px;"></i>
+        $303
+    </button>
+    </form>
+    </td>
+</tr>
+    
+<tr>
+    <td>$15,867</td>
+    <td>CHECKING ACCOUNT bbvausa.com [Login:Password]+ Name+AN/RN+ [Email access]</td>
+    <td>
+    <form action="invoice.html" method="GET">
+    <input type="hidden" name="prod_id" value="317">
+    <input type="hidden" name="prod_bank" value="BBVA [CHECKING ACCOUNT]">
+    <input type="hidden" name="prod_balance" value="Balance: $15,867">
+    <input type="hidden" name="prod_type" value="bbvausa.com[Login:Password]+Name+AN/RN+[Email access]">
+    <button type="submit" class="btn btn-success btn-addon">
+        <i class="fas fa-cart-plus" style="margin-right: 5px;"></i>
+        $317
+    </button>
+    </form>
+    </td>
+</tr> 
+    
+    
+<tr>
+    <td>$16,713</td>
+    <td>CHECKING ACCOUNT bbvausa.com [Login:Password]+ Name+AN/RN+ [Email access]</td>
+    <td>
+    <form action="invoice.html" method="GET">
+    <input type="hidden" name="prod_id" value="334">
+    <input type="hidden" name="prod_bank" value="BBVA [CHECKING ACCOUNT]">
+    <input type="hidden" name="prod_balance" value="Balance: $16,713">
+    <input type="hidden" name="prod_type" value="bbvausa.com[Login:Password]+Name+AN/RN+[Email access]">
+    <button type="submit" class="btn btn-success btn-addon">
+        <i class="fas fa-cart-plus" style="margin-right: 5px;"></i>
+        $334
+    </button>
+    </form>
+    </td>
+</tr> 
+    
+    
+<tr>
+    <td>$14,619</td>
+    <td>CHECKING ACCOUNT bbvausa.com [Login:Password]+ Name+AN/RN+ [Email access]</td>
+    <td>
+    <form action="invoice.html" method="GET">
+    <input type="hidden" name="prod_id" value="293">
+    <input type="hidden" name="prod_bank" value="BBVA [CHECKING ACCOUNT]">
+    <input type="hidden" name="prod_balance" value="Balance: $14,619">
+    <input type="hidden" name="prod_type" value="bbvausa.com[Login:Password]+Name+AN/RN+[Email access]">
+    <button type="submit" class="btn btn-success btn-addon">
+        <i class="fas fa-cart-plus" style="margin-right: 5px;"></i>
+        $293
+    </button>
+    </form>
+    </td>
+</tr>     
+    
+    </tbody>
+    </table>
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
+                    <!-- Row -->
+                </div>
+                <!-- end page main wrapper -->
+                <div class="page-footer">
+                    <p>Copyright &copy; 2021 Bank Logs All rights reserved.</p>
+                </div>
+            </div>
 
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title" id="exampleModalLabel">
+                                New message
+                            </h4>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <form>
+                                <div class="form-group">
+                                    <label for="recipient-name" class="control-label">Channel username:</label>
+                                    <input type="text" class="form-control" id="recipient-name">
+                                </div>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-dismiss="modal">
+                                Close
+                            </button>
+                            <a href="https://t.me/s/bankloginusa" target="_blank" class="btn btn-primary">
+                                Join Channel
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
+            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title" id="myModalLabel">Recent Sales</h4>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="alert alert-success alert-dismissible" role="alert">          
+                                Added 3 New 
+                                <a href="huntington.html" class="alert-link">Huntington Bank Logs</a>
+                                20:00
+                            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                            </div>
+                            <div class="alert alert-default alert-dismissible" role="alert">
+                                Sold
+                                <a href="woodforest.html" class="alert-link">Woodforest Bank Log</a>
+                                Balance: $16,702
+                                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="alert alert-info alert-dismissible" role="alert">
+                                Sold
+                                <a href="barclays.html" class="alert-link">Barclays Bank Log</a>
+                                Balance: $13,212
+                                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="alert alert-warning alert-dismissible" role="alert">
+                                Sold
+                                <a href="chase.html" class="alert-link">Chase Bank Log</a>
+                                Balance: $11,243
+                                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="alert alert-success alert-dismissible mb-0" role="alert">
+                                Sold
+                                <a href="bbva.html" class="alert-link">BBVA Bank Log</a>
+                                Balance: $16,980
+                                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                        </div>    
+    
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>            
+        </div>
+        <!-- end page content -->
+    </div>
 
-</div>
-</div>
-</div>
-</section>
-<!-- end project section -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- start clients section -->
-<div class="section-clients bg-light-gray">
-<div class="container-fluid">
-<div class="owl-carousel owl-theme clients" id="clients">
-<div class="item"><img alt="partner-image" src="img/partners/bbt.jpg"></div>
-<div class="item"><img alt="partner-image" src="img/partners/bbva.jpg"></div>
-<div class="item"><img alt="partner-image" src="img/partners/chase.jpg"></div>
-<div class="item"><img alt="partner-image" src="img/partners/citi.jpg"></div>
-<div class="item"><img alt="partner-image" src="img/partners/huntington.jpg"></div>
-<div class="item"><img alt="partner-image" src="img/partners/nfcu.jpg"></div>
-<div class="item"><img alt="partner-image" src="img/partners/pnc.jpg"></div>
-<div class="item"><img alt="partner-image" src="img/partners/suntrust.jpg"></div>
-<div class="item"><img alt="partner-image" src="img/partners/woodforest.jpg"></div>
-<div class="item"><img alt="partner-image" src="img/partners/chime.jpg"></div>
-<div class="item"><img alt="partner-image" src="img/partners/boa.jpg"></div>
-</div>
-</div>
-</div>
-<!-- end clients section -->
-
-
-
-
-</div>
-<!-- end main-wrapper section -->
-
-<!-- start switcher section -->
-<div id="style-switcher">
-<a href="javascript:void(0)" class="switcher-setting"><i class="fa fa-cog fa-spin"></i></a>
-
-
-<div class="choose-color">
-    <h2>Change Theme Color</h2>
-<ul class="colors" id="color1">
-<li>
-    <a href="javascript:void(0)" class="style1"></a>
-</li>
-<li>
-    <a href="javascript:void(0)" class="style2"></a>
-</li>
-<li>
-    <a href="javascript:void(0)" class="style3"></a>
-</li>
-<li>
-    <a href="javascript:void(0)" class="style4"></a>
-</li>
-<li>
-    <a href="javascript:void(0)" class="style5"></a>
-</li>
-<li>
-    <a href="javascript:void(0)" class="style6"></a>
-</li>
-<li>
-    <a href="javascript:void(0)" class="style7"></a>
-</li>
-<li>
-    <a href="javascript:void(0)" class="style8"></a>
-</li>
-</ul>
-</div>
-</div>
-<!-- end switcher section -->
-
-<!-- start scroll to top -->
-<a href="javascript:void(0)" class="scroll-to-top"><i class="fas fa-angle-up" aria-hidden="true"></i></a>
-<!-- end scroll to top -->
-
-<!-- all js include start -->
-
-
-<script src="js/core.min.js"></script>
-<script src="js/main.js"></script>
-
-
-<script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-app.js"></script>
-<script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-auth.js"></script>
-
-<script>
+    <script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-auth.js"></script>
+    
+    <script>
   var firebaseConfig = {
     apiKey: "AIzaSyDGwhFbFiCm9IDTNQwf69atH_MmUu9eMUs",
     authDomain: "bankloginusa.firebaseapp.com",
@@ -888,9 +617,43 @@
   };
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
-</script>
-<script src="js/profile.js"></script>
+    </script>
+    <script src="js/profile.js"></script>
 
+    <!-- all js include start -->
+
+    <!-- jQuery -->
+    <script src="plugins/jquery/jquery-3.1.0.min.js"></script>
+
+    <!-- bootstrap -->
+    <script src="plugins/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- slimscroll -->
+    <script src="plugins/jquery-slimscroll/jquery.slimscroll.min.js"></script>
+
+    <!-- uniform -->
+    <script src="plugins/uniform/js/jquery.uniform.standalone.js"></script>
+
+    <!-- switchery -->
+    <script src="plugins/switchery/switchery.min.js"></script>
+
+    <!-- datatables -->
+    <script src="plugins/datatables/js/jquery.datatables.min.js"></script>
+
+    <!-- datepicker -->
+    <script src="plugins/bootstrap-datepicker/js/bootstrap-datepicker.js"></script>
+
+    <!-- table-data -->
+    <script src="js/pages/table-data.js"></script>
+
+    <!-- custom scripts -->
+    <script src="js/main.js"></script>
+
+    <!-- ui modal -->
+<script src="js/pages/ui-modals.js"></script>
+
+    
 </body>
+
 
 </html>
