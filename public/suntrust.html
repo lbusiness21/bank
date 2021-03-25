@@ -1,34 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
+
     <head>
 
     <!-- metas -->
     <meta charset="utf-8">
-    <meta name="author" content="Satoshi Nakamoto" />
+    <meta name="author" content="bitcoin" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <meta name="keywords" content="Bank Logs" />
-    <meta name="description" content="Dark Net" />
+    <meta name="keywords" content="bank logs" />
+    <meta name="description" content="Suntrust Bank" />
 
     <!-- title  -->
     <title>Suntrust Bank</title>
+
+    <!-- favicon -->
     <link rel="shortcut icon" href="img/logos/favicon.png">
     <link rel="apple-touch-icon" href="img/logos/apple-touch-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="72x72" href="img/logos/apple-touch-icon-72x72.png">
     <link rel="apple-touch-icon" sizes="114x114" href="img/logos/apple-touch-icon-114x114.png">
-    <link rel="stylesheet" href="css/plugins/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/plugins/default.css" />
-    <link rel="stylesheet" href="css/plugins/fontawesome-all.min.css" />
-    <link rel="stylesheet" href="css/plugins/nav-menu.css" />
-    <link rel="stylesheet" href="css/plugins/owl.carousel.min.css" />
-    <link href="css/switcher.css" rel="stylesheet">
+
+    <!-- common plugins -->
+    <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="plugins/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="plugins/icomoon/style.css" />
+    <link rel="stylesheet" href="plugins/uniform/css/default.css" />
+    <link rel="stylesheet" href="plugins/switchery/switchery.min.css" />
+
+    <!-- datatables plugin -->
+    <link rel="stylesheet" href="plugins/datatables/css/jquery.datatables.min.css" />
+    <link rel="stylesheet" href="plugins/datatables/css/jquery.datatables_themeroller.css" />
+
+    <!-- bootstrap-datepicker plugin -->
+    <link rel="stylesheet" href="plugins/bootstrap-datepicker/css/datepicker.css" />
 
     <!-- custom css -->
-    <link href="css/styles-4.css" rel="stylesheet" id="colors">
+    <link rel="stylesheet" href="css/styles.css" />
 
 </head>
 
-<body>
+<body class="page-sidebar-fixed page-header-fixed">
 
     <!-- start page loading -->
     <div id="preloader">
@@ -38,1353 +50,657 @@
     </div>
     <!-- end page loading -->
 
-    <!-- start main-wrapper section -->
-    <div class="main-wrapper">
-
-<!-- start header ection -->
-<header class="header-style8"  id="home">
-    <div id="top-bar">
-    <div class="container-fluid">
-    <div class="row">
-        <div class="col-md-9 col-xs-12">
-            <div class="top-bar-info">
-                <ul>
-                    <li>
-                        <i class="fas fa-envelope"></i>
-                    </li>
-                    <li id="emailHolder">
-                      
-                    </li>
-                </ul>
-            </div>
-        </div>
-
-    </div>
-    </div>
-    </div>
-    
-    <div class="navbar-default">
-    
-    
-    <div class="container-fluid">
-    <div class="row align-items-center">
-    <div class="col-12 col-lg-12">
-    <div class="menu_area alt-font">
-    <nav class="navbar navbar-expand-lg navbar-light no-padding">
-    
-    <div class="navbar-header navbar-header-custom">
-          <!-- Start Logo -->
-          <a href="javascript:void(0);" class="navbar-brand logodefault">
-            <img id="logo" src="img/logos/name.png" alt="">
-            <span id="jinaHolder">
-              DARKNET
-            </span>
-        </a>
-        <!-- End Logo -->
-    </div>
-    
-    <div class="navbar-toggler"></div>
-
-<!-- Menu ea -->
-<ul class="navbar-nav ml-auto" id="nav" style="display: none;">
-    <li><a href="huntington">
-        <img src="img/partners/huntington.jpg" style="width: 20px; margin-right: 1px; border-radius: 4px;">
-        Huntington</a>
-    </li>
-    <li><a href="woodforest">
-        <img src="img/partners/woodforest.jpg" style="width: 20px; margin-right: 1px; border-radius: 4px;">
-        Woodforest</a></li>
-    <li><a href="pnc">
-        <img src="img/partners/pnc.jpg" style="width: 20px; margin-right: 1px; border-radius: 4px;">
-        PNC </a></li>
-    <li><a href="chase">
-        <img src="img/partners/chase.jpg" style="width: 20px; margin-right: 1px; border-radius: 4px;">
-        Chase</a></li>
-    <li><a href="nfcu">
-        <img src="img/partners/nfcu.jpg" style="width: 20px; margin-right: 1px; border-radius: 4px;">
-        NFCU</a></li>
-    <li><a href="chime">
-        <img src="img/partners/chime.jpg" style="width: 20px; margin-right: 1px; border-radius: 4px;">
-        Chime</a></li>                                                                                    
-    <li><a href="citi">
-        <img src="img/partners/citi.jpg" style="width: 20px; margin-right: 1px; border-radius: 4px;">
-        Citi</a></li>
-    <li><a href="bbva">
-        <img src="img/partners/bbva.jpg" style="width: 20px; margin-right: 1px; border-radius: 4px;">
-        BBVA</a></li>
-    <li><a href="bb&t">
-        <img src="img/partners/bbt.jpg" style="width: 20px; margin-right: 1px; border-radius: 4px;">
-        BB&T</a></li>                                                                          
-</ul>
-<!-- End Men Area -->
-
-    <!-- Start Atribute Navigation -->
-    <div class="attr-nav xs-margin-55px-right">
-        <ul>
-            <li class="dropdown sm-no-margin">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                    <img id="photoHolder" 
-                    src="img/t-6.jpg" 
-                    class="cart-thumb" 
-                    alt="" />
-                    <span class="badge bg-theme">
-                        1
-                    </span>
+    <!-- start page container -->
+    <div class="page-container">
+              <!-- start page sidebar -->
+              <div class="page-sidebar">
+                <a class="logo-box" href="huntington.html">
+                    <span>SUNTRUST</span>
+                    <i class="icon-radio_button_unchecked" id="fixed-sidebar-toggle-button"></i>
+                    <i class="icon-close" id="sidebar-toggle-button-close"></i>
                 </a>
-                <ul class="dropdown-menu cart-list">
-                    <li class="total bg-theme">
-                        <span class="pull-left font-weight-600 font-size14" id="displayNameHolder">
-                           DARKNET
-                         </span>
-                         <a href="lockscreen" class="butn small btn-cart white">
-                            <span class="font-weight-600 font-size14">
-                                Logout 
-                            </span>
-                        </a>
-                    </li>
-                </ul>
-            </li>
-        </ul>
-    </div>
-    <!-- End Atribute Navigation -->
-    </nav>
-    </div>
-    </div>
-    </div>
-    </div>
-    </div>
-    
-    </header>
-    <!-- end header section -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- start project section -->
-<section id="banklogs" style="padding: 0;">
-<div class="container-fluid">
-<div class="section-heading">
-<h3> </h3>
-</div>
-<div class="row">
-<!-- Start links -->
-<div class="filtering col-sm-12 text-center">
-<span data-filter='*' class="active">
-ALL
-</span>
-<span data-filter='.checking'>
-CHECKING
-</span>
-<span data-filter='.savings'>
-SAVINGS
-</span>
-</div>
-<!-- End links -->
-<div class="gallery text-center width-100 product-grid">
-<div class="col-lg-2 col-md-4 col-6 items checking">
-<div class="feature-box-04">
-    <div class="fetaure-image">
-        <div class="label-offer bg-red">
-            Checking Account
-        </div>
-        <img src="img/partners/suntrust.jpg" alt="" />
-        <div class="package-detail">
-            <div class="people-duration">
-                <p class="float-right">
-                    <span class="icon-wallet text-theme-color"></span>
-                    <span class="person">
-                        $14,428
-                    </span>
-                </p>
-                <p class="float-left">
-                    <span class="day">Bal:</span>
-                </p>
-            </div>
-        </div>
-    </div>
-
-    <div class="no-padding border">
-        <p>Suntrust.com</p>
-        <p>Login + Password</p>
-        <p>Name + Address</p>
-        <p>Email Access</p>
-        <form action="invoice" method="GET">
-            <input type="hidden" name="item_price" value="285">
-            <input type="hidden" name="item_balance" value="14,428">
-            <input type="hidden" name="item_bank" value="Suntrust Bank">
-            <input type="hidden" name="item_type" value="Checking Account">
-            <input type="hidden" name="item_website" value="suntrust.com [Login:Password]">
-            <input type="hidden" name="item_details" value="Name + Address">
-            <input type="hidden" name="item_extra" value="Email Access">
-            <input type="hidden" name="item_image" value="img/partners/suntrust.jpg">
-            <button type="submit" class="butn medium">     
-                <span class="margin-10px-left">
-                    <i class="fas fa-cart-plus margin-10px-right"></i>
-                    $285
-                </span>
-            </button>
-        </form>
-    </div>
-</div>
-</div>
-<div class="col-lg-2 col-md-4 col-6 items savings">
-<div class="feature-box-04">
-    <div class="fetaure-image">
-        <div class="label-offer bg-theme">
-            Savings Account
-        </div>
-        <img src="img/partners/suntrust.jpg" alt="" />
-        <div class="package-detail">
-            <div class="people-duration">
-                <p class="float-right">
-                    <span class="icon-wallet text-theme-color"></span>
-                    <span class="person">
-                        $14,538
-                    </span>
-                </p>
-                <p class="float-left">
-                    <span class="day">Bal:</span>
-                </p>
-            </div>
-        </div>
-    </div>
-    <div class="no-padding border">
-        <p>Suntrust.com</p>
-        <p>Login + Password</p>
-        <p>Name + Address</p>
-        <p>Email Access</p>
-        <form action="invoice" method="GET">
-            <input type="hidden" name="item_price" value="290">
-            <input type="hidden" name="item_balance" value="14,538">
-            <input type="hidden" name="item_bank" value="Suntrust Bank">
-            <input type="hidden" name="item_type" value="Savings Account">
-            <input type="hidden" name="item_website" value="suntrust.com [Login:Password]">
-            <input type="hidden" name="item_details" value="Name + Address">
-            <input type="hidden" name="item_extra" value="Email Access">
-            <input type="hidden" name="item_image" value="img/partners/suntrust.jpg">
-            <button type="submit" class="butn medium">     
-                <span class="margin-10px-left">
-                    <i class="fas fa-cart-plus margin-10px-right"></i>
-                 $290
-                </span>
-            </button>
-        </form>
-    </div>
-</div>
-</div>
-
-
-
-<div class="col-lg-2 col-md-4 col-6 items savings">
-<div class="feature-box-04">
-    <div class="fetaure-image">
-        <div class="label-offer bg-theme">
-            Savings Account
-        </div>
-        <img src="img/partners/suntrust.jpg" alt="" />
-        <div class="package-detail">
-            <div class="people-duration">
-                <p class="float-right">
-                    <span class="icon-wallet text-theme-color"></span>
-                    <span class="person">
-                        $14,817
-                    </span>
-                </p>
-                <p class="float-left">
-                    <span class="day">Bal:</span>
-                </p>
-            </div>
-        </div>
-    </div>
-    <div class="no-padding border">
-        <p>Suntrust.com</p>
-        <p>Login + Password</p>
-        <p>Name + Address</p>
-        <p>Email Access</p>
-        <form action="invoice" method="GET">
-            <input type="hidden" name="item_price" value="296">
-            <input type="hidden" name="item_balance" value="14,817">
-            <input type="hidden" name="item_bank" value="Suntrust Bank">
-            <input type="hidden" name="item_type" value="Savings Account">
-            <input type="hidden" name="item_website" value="suntrust.com [Login:Password]">
-            <input type="hidden" name="item_details" value="Name + Address">
-            <input type="hidden" name="item_extra" value="Email Access">
-            <input type="hidden" name="item_image" value="img/partners/suntrust.jpg">
-            <button type="submit" class="butn medium">     
-                <span class="margin-10px-left">
-                    <i class="fas fa-cart-plus margin-10px-right"></i>
-                 $296
-                </span>
-            </button>
-        </form>
-    </div>
-</div>
-</div>
-
-
-
-<div class="col-lg-2 col-md-4 col-6 items savings">
-<div class="feature-box-04">
-    <div class="fetaure-image">
-        <div class="label-offer bg-theme">
-            Savings Account
-        </div>
-        <img src="img/partners/suntrust.jpg" alt="" />
-        <div class="package-detail">
-            <div class="people-duration">
-                <p class="float-right">
-                    <span class="icon-wallet text-theme-color"></span>
-                    <span class="person">
-                        $15,816
-                    </span>
-                </p>
-                <p class="float-left">
-                    <span class="day">Bal:</span>
-                </p>
-            </div>
-        </div>
-    </div>
-    <div class="no-padding border">
-        <p>Suntrust.com</p>
-        <p>Login + Password</p>
-        <p>Name + Address</p>
-        <p>Email Access</p>
-        <form action="invoice" method="GET">
-            <input type="hidden" name="item_price" value="305">
-            <input type="hidden" name="item_balance" value="15,816">
-            <input type="hidden" name="item_bank" value="Suntrust Bank">
-            <input type="hidden" name="item_type" value="Savings Account">
-            <input type="hidden" name="item_website" value="suntrust.com [Login:Password]">
-            <input type="hidden" name="item_details" value="Name + Address">
-            <input type="hidden" name="item_extra" value="Email Access">
-            <input type="hidden" name="item_image" value="img/partners/suntrust.jpg">
-            <button type="submit" class="butn medium">     
-                <span class="margin-10px-left">
-                    <i class="fas fa-cart-plus margin-10px-right"></i>
-                    $305
-                </span>
-            </button>
-        </form>
-    </div>
-</div>
-</div>
-
-
-
-
-<div class="col-lg-2 col-md-4 col-6 items checking">
-<div class="feature-box-04">
-    <div class="fetaure-image">
-        <div class="label-offer bg-red">
-            Checking Account
-        </div>
-        <img src="img/partners/suntrust.jpg" alt="" />
-        <div class="package-detail">
-            <div class="people-duration">
-                <p class="float-right">
-                    <span class="icon-wallet text-theme-color"></span>
-                    <span class="person">
-                        $17,596
-                    </span>
-                </p>
-                <p class="float-left">
-                    <span class="day">Bal:</span>
-                </p>
-            </div>
-        </div>
-    </div>
-    <div class="no-padding border">
-        <p>Suntrust.com</p>
-        <p>Login + Password</p>
-        <p>Name + Address</p>
-        <p>Email Access</p>
-        <form action="invoice" method="GET">
-            <input type="hidden" name="item_price" value="346">
-            <input type="hidden" name="item_balance" value="17,596">
-            <input type="hidden" name="item_bank" value="Suntrust Bank">
-            <input type="hidden" name="item_type" value="Checking Account">
-            <input type="hidden" name="item_website" value="suntrust.com [Login:Password]">
-            <input type="hidden" name="item_details" value="Name + Address">
-            <input type="hidden" name="item_extra" value="Email Access">
-            <input type="hidden" name="item_image" value="img/partners/suntrust.jpg">
-            <button type="submit" class="butn medium">     
-                <span class="margin-10px-left">
-                    <i class="fas fa-cart-plus margin-10px-right"></i>
-                     $346
-                </span>
-            </button>
-        </form>
-    </div>
-</div>
-</div>
-
-
-<div class="col-lg-2 col-md-4 col-6 items checking">
-<div class="feature-box-04">
-    <div class="fetaure-image">
-        <div class="label-offer bg-red">
-            Checking Account
-        </div>
-        <img src="img/partners/suntrust.jpg" alt="" />
-        <div class="package-detail">
-            <div class="people-duration">
-                <p class="float-right">
-                    <span class="icon-wallet text-theme-color"></span>
-                    <span class="person">
-                        $18,915
-                    </span>
-                </p>
-                <p class="float-left">
-                    <span class="day">Bal:</span>
-                </p>
-            </div>
-        </div>
-    </div>
-    <div class="no-padding border">
-        <p>Suntrust.com</p>
-        <p>Login + Password</p>
-        <p>Name + Address</p>
-        <p>Email Access</p>
-        <form action="invoice" method="GET">
-            <input type="hidden" name="item_price" value="375">
-            <input type="hidden" name="item_balance" value="18,915">
-            <input type="hidden" name="item_bank" value="Suntrust Bank">
-            <input type="hidden" name="item_type" value="Checking Account">
-            <input type="hidden" name="item_website" value="suntrust.com [Login:Password]">
-            <input type="hidden" name="item_details" value="Name + Address">
-            <input type="hidden" name="item_extra" value="Email Access">
-            <input type="hidden" name="item_image" value="img/partners/suntrust.jpg">
-            <button type="submit" class="butn medium">     
-                <span class="margin-10px-left">
-                    <i class="fas fa-cart-plus margin-10px-right"></i>
-                 $375
-                </span>
-            </button>
-        </form>
-    </div>
-</div>
-</div>
-
-
-<div class="col-lg-2 col-md-4 col-6 items savings">
-<div class="feature-box-04">
-    <div class="fetaure-image">
-        <div class="label-offer bg-theme">
-            Savings Account
-        </div>
-        <img src="img/partners/suntrust.jpg" alt="" />
-        <div class="package-detail">
-            <div class="people-duration">
-                <p class="float-right">
-                    <span class="icon-wallet text-theme-color"></span>
-                    <span class="person">
-                        $19,046
-                    </span>
-                </p>
-                <p class="float-left">
-                    <span class="day">Bal:</span>
-                </p>
-            </div>
-        </div>
-    </div>
-    <div class="no-padding border">
-        <p>Suntrust.com</p>
-        <p>Login + Password</p>
-        <p>Name + Address</p>
-        <p>Email Access</p>
-        <form action="invoice" method="GET">
-            <input type="hidden" name="item_price" value="380">
-            <input type="hidden" name="item_balance" value="19,046">
-            <input type="hidden" name="item_bank" value="Suntrust Bank">
-            <input type="hidden" name="item_type" value="Savings Account">
-            <input type="hidden" name="item_website" value="suntrust.com [Login:Password]">
-            <input type="hidden" name="item_details" value="Name + Address">
-            <input type="hidden" name="item_extra" value="Email Access">
-            <input type="hidden" name="item_image" value="img/partners/suntrust.jpg">
-            <button type="submit" class="butn medium">     
-                <span class="margin-10px-left">
-                    <i class="fas fa-cart-plus margin-10px-right"></i>
-                     $380
-                </span>
-            </button>
-        </form>
-    </div>
-</div>
-</div>
-
-
-<div class="col-lg-2 col-md-4 col-6 items savings">
-<div class="feature-box-04">
-    <div class="fetaure-image">
-        <div class="label-offer bg-theme">
-            Savings Account
-        </div>
-        <img src="img/partners/suntrust.jpg" alt="" />
-        <div class="package-detail">
-            <div class="people-duration">
-                <p class="float-right">
-                    <span class="icon-wallet text-theme-color"></span>
-                    <span class="person">
-                        $20,158
-                    </span>
-                </p>
-                <p class="float-left">
-                    <span class="day">Bal:</span>
-                </p>
-            </div>
-        </div>
-    </div>
-    <div class="no-padding border">
-        <p>Suntrust.com</p>
-        <p>Login + Password</p>
-        <p>Name + Address</p>
-        <p>Email Access</p>
-        <form action="invoice" method="GET">
-            <input type="hidden" name="item_price" value="400">
-            <input type="hidden" name="item_balance" value="20,158">
-            <input type="hidden" name="item_bank" value="Suntrust Bank">
-            <input type="hidden" name="item_type" value="Savings Account">
-            <input type="hidden" name="item_website" value="suntrust.com [Login:Password]">
-            <input type="hidden" name="item_details" value="Name + Address">
-            <input type="hidden" name="item_extra" value="Email Access">
-            <input type="hidden" name="item_image" value="img/partners/suntrust.jpg">
-            <button type="submit" class="butn medium">     
-                <span class="margin-10px-left">
-                    <i class="fas fa-cart-plus margin-10px-right"></i>
-                    $400
-                </span>
-            </button>
-        </form>
-    </div>
-</div>
-</div>
-
-
-<div class="col-lg-2 col-md-4 col-6 items checking">
-<div class="feature-box-04">
-    <div class="fetaure-image">
-        <div class="label-offer bg-red">
-            Checking Account
-        </div>
-        <img src="img/partners/suntrust.jpg" alt="" />
-        <div class="package-detail">
-            <div class="people-duration">
-                <p class="float-right">
-                    <span class="icon-wallet text-theme-color"></span>
-                    <span class="person">
-                        $20,927
-                    </span>
-                </p>
-                <p class="float-left">
-                    <span class="day">Bal:</span>
-                </p>
-            </div>
-        </div>
-    </div>
-    <div class="no-padding border">
-        <p>Suntrust.com</p>
-        <p>Login + Password</p>
-        <p>Name + Address</p>
-        <p>Email Access</p>
-        <form action="invoice" method="GET">
-            <input type="hidden" name="item_price" value="418">
-            <input type="hidden" name="item_balance" value="20,927">
-            <input type="hidden" name="item_bank" value="Suntrust Bank">
-            <input type="hidden" name="item_type" value="Checking Account">
-            <input type="hidden" name="item_website" value="suntrust.com [Login:Password]">
-            <input type="hidden" name="item_details" value="Name + Address">
-            <input type="hidden" name="item_extra" value="Email Access">
-            <input type="hidden" name="item_image" value="img/partners/suntrust.jpg">
-            <button type="submit" class="butn medium">     
-                <span class="margin-10px-left">
-                    <i class="fas fa-cart-plus margin-10px-right"></i>
-                     $418
-                </span>
-            </button>
-        </form>
-    </div>
-</div>
-</div>
-
-
-<div class="col-lg-2 col-md-4 col-6 items savings">
-<div class="feature-box-04">
-    <div class="fetaure-image">
-        <div class="label-offer bg-theme">
-            Savings Account
-        </div>
-        <img src="img/partners/suntrust.jpg" alt="" />
-        <div class="package-detail">
-            <div class="people-duration">
-                <p class="float-right">
-                    <span class="icon-wallet text-theme-color"></span>
-                    <span class="person">
-                        $25,113
-                    </span>
-                </p>
-                <p class="float-left">
-                    <span class="day">Bal:</span>
-                </p>
-            </div>
-        </div>
-    </div>
-    <div class="no-padding border">
-        <p>Suntrust.com</p>
-        <p>Login + Password</p>
-        <p>Name + Address</p>
-        <p>Email Access</p>
-        <form action="invoice" method="GET">
-            <input type="hidden" name="item_price" value="503">
-            <input type="hidden" name="item_balance" value="25,113">
-            <input type="hidden" name="item_bank" value="Suntrust Bank">
-            <input type="hidden" name="item_type" value="Savings Account">
-            <input type="hidden" name="item_website" value="suntrust.com [Login:Password]">
-            <input type="hidden" name="item_details" value="Name + Address">
-            <input type="hidden" name="item_extra" value="Email Access">
-            <input type="hidden" name="item_image" value="img/partners/suntrust.jpg">
-            <button type="submit" class="butn medium">     
-                <span class="margin-10px-left">
-                    <i class="fas fa-cart-plus margin-10px-right"></i>
-                    $503
-                </span>
-            </button>
-        </form>
-    </div>
-</div>
-</div>
-
-
-<div class="col-lg-2 col-md-4 col-6 items savings">
-<div class="feature-box-04">
-    <div class="fetaure-image">
-        <div class="label-offer bg-theme">
-            Savings Account
-        </div>
-        <img src="img/partners/suntrust.jpg" alt="" />
-        <div class="package-detail">
-            <div class="people-duration">
-                <p class="float-right">
-                    <span class="icon-wallet text-theme-color"></span>
-                    <span class="person">
-                        $26,019
-                    </span>
-                </p>
-                <p class="float-left">
-                    <span class="day">Bal:</span>
-                </p>
-            </div>
-        </div>
-    </div>
-    <div class="no-padding border">
-        <p>Suntrust.com</p>
-        <p>Login + Password</p>
-        <p>Name + Address</p>
-        <p>Email Access</p>
-        <form action="invoice" method="GET">
-            <input type="hidden" name="item_price" value="520">
-            <input type="hidden" name="item_balance" value="26,019">
-            <input type="hidden" name="item_bank" value="Suntrust Bank">
-            <input type="hidden" name="item_type" value="Savings Account">
-            <input type="hidden" name="item_website" value="suntrust.com [Login:Password]">
-            <input type="hidden" name="item_details" value="Name + Address">
-            <input type="hidden" name="item_extra" value="Email Access">
-            <input type="hidden" name="item_image" value="img/partners/suntrust.jpg">
-            <button type="submit" class="butn medium">     
-                <span class="margin-10px-left">
-                    <i class="fas fa-cart-plus margin-10px-right"></i>
-                 $520
-                </span>
-            </button>
-        </form>
-    </div>
-</div>
-</div>
-
-
-<div class="col-lg-2 col-md-4 col-6 items savings">
-<div class="feature-box-04">
-    <div class="fetaure-image">
-        <div class="label-offer bg-theme">
-            Savings Account
-        </div>
-        <img src="img/partners/suntrust.jpg" alt="" />
-        <div class="package-detail">
-            <div class="people-duration">
-                <p class="float-right">
-                    <span class="icon-wallet text-theme-color"></span>
-                    <span class="person">
-                        $28,374
-                    </span>
-                </p>
-                <p class="float-left">
-                    <span class="day">Bal:</span>
-                </p>
-            </div>
-        </div>
-    </div>
-    <div class="no-padding border">
-        <p>Suntrust.com</p>
-        <p>Login + Password</p>
-        <p>Name + Address</p>
-        <p>Email Access</p>
-        <form action="invoice" method="GET">
-            <input type="hidden" name="item_price" value="561">
-            <input type="hidden" name="item_balance" value="28,374">
-            <input type="hidden" name="item_bank" value="Suntrust Bank">
-            <input type="hidden" name="item_type" value="Savings Account">
-            <input type="hidden" name="item_website" value="suntrust.com [Login:Password]">
-            <input type="hidden" name="item_details" value="Name + Address">
-            <input type="hidden" name="item_extra" value="Email Access">
-            <input type="hidden" name="item_image" value="img/partners/suntrust.jpg">
-            <button type="submit" class="butn medium">     
-                <span class="margin-10px-left">
-                    <i class="fas fa-cart-plus margin-10px-right"></i>
-                 $561
-                </span>
-            </button>
-        </form>
-    </div>
-</div>
-</div>
-
-
-<div class="col-lg-2 col-md-4 col-6 items savings">
-<div class="feature-box-04">
-    <div class="fetaure-image">
-        <div class="label-offer bg-theme">
-            Savings Account
-        </div>
-        <img src="img/partners/suntrust.jpg" alt="" />
-        <div class="package-detail">
-            <div class="people-duration">
-                <p class="float-right">
-                    <span class="icon-wallet text-theme-color"></span>
-                    <span class="person">
-                        $28,940
-                    </span>
-                </p>
-                <p class="float-left">
-                    <span class="day">Bal:</span>
-                </p>
-            </div>
-        </div>
-    </div>
-    <div class="no-padding border">
-        <p>Suntrust.com</p>
-        <p>Login + Password</p>
-        <p>Name + Address</p>
-        <p>Email Access</p>
-        <form action="invoice" method="GET">
-            <input type="hidden" name="item_price" value="580">
-            <input type="hidden" name="item_balance" value="28,940">
-            <input type="hidden" name="item_bank" value="Suntrust Bank">
-            <input type="hidden" name="item_type" value="Savings Account">
-            <input type="hidden" name="item_website" value="suntrust.com [Login:Password]">
-            <input type="hidden" name="item_details" value="Name + Address">
-            <input type="hidden" name="item_extra" value="Email Access">
-            <input type="hidden" name="item_image" value="img/partners/suntrust.jpg">
-            <button type="submit" class="butn medium">     
-                <span class="margin-10px-left">
-                    <i class="fas fa-cart-plus margin-10px-right"></i>
-                    $580
-                </span>
-            </button>
-        </form>
-    </div>
-</div>
-</div>
-
-
-<div class="col-lg-2 col-md-4 col-6 items savings">
-<div class="feature-box-04">
-    <div class="fetaure-image">
-        <div class="label-offer bg-theme">
-            Savings Account
-        </div>
-        <img src="img/partners/suntrust.jpg" alt="" />
-        <div class="package-detail">
-            <div class="people-duration">
-                <p class="float-right">
-                    <span class="icon-wallet text-theme-color"></span>
-                    <span class="person">
-                        $29,152
-                    </span>
-                </p>
-                <p class="float-left">
-                    <span class="day">Bal:</span>
-                </p>
-            </div>
-        </div>
-    </div>
-    <div class="no-padding border">
-        <p>Suntrust.com</p>
-        <p>Login + Password</p>
-        <p>Name + Address</p>
-        <p>Email Access</p>
-        <form action="invoice" method="GET">
-            <input type="hidden" name="item_price" value="583">
-            <input type="hidden" name="item_balance" value="29,152">
-            <input type="hidden" name="item_bank" value="Suntrust Bank">
-            <input type="hidden" name="item_type" value="Savings Account">
-            <input type="hidden" name="item_website" value="suntrust.com [Login:Password]">
-            <input type="hidden" name="item_details" value="Name + Address">
-            <input type="hidden" name="item_extra" value="Email Access">
-            <input type="hidden" name="item_image" value="img/partners/suntrust.jpg">
-            <button type="submit" class="butn medium">     
-                <span class="margin-10px-left">
-                    <i class="fas fa-cart-plus margin-10px-right"></i>
-                     $583
-                </span>
-            </button>
-        </form>
-    </div>
-</div>
-</div>
-
-<div class="col-lg-2 col-md-4 col-6 items checking">
-    <div class="feature-box-04">
-        <div class="fetaure-image">
-            <div class="label-offer bg-red">
-                Checking
-            </div>
-            <img src="img/partners/suntrust.jpg" alt="" />
-            <div class="package-detail">
-                <div class="people-duration">
-                    <p class="float-right">
-                        <span class="icon-wallet text-theme-color"></span>
-                        <span class="person">
-                            $30,417
-                        </span>
-                    </p>
-                    <p class="float-left">
-                        <span class="day">Bal:</span>
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="no-padding border">
-            <p>Suntrust.com</p>
-            <p>Login + Password</p>
-            <p>Name + Address</p>
-            <p>Email Access</p>
-            <form action="invoice" method="GET">
-                <input type="hidden" name="item_price" value="608">
-                <input type="hidden" name="item_balance" value="30,417">
-                <input type="hidden" name="item_bank" value="Suntrust Bank">
-                <input type="hidden" name="item_type" value="Checking Account">
-                <input type="hidden" name="item_website" value="suntrust.com [Login:Password]">
-                <input type="hidden" name="item_details" value="Name + Address">
-                <input type="hidden" name="item_extra" value="Email Access">
-                <input type="hidden" name="item_image" value="img/partners/suntrust.jpg">
-                <button type="submit" class="butn medium">     
-                    <span class="margin-10px-left">
-                        <i class="fas fa-cart-plus margin-10px-right"></i>
-                        $608
-                    </span>
-                </button>
-            </form>
-        </div>
-</div>
-</div>
-
-<div class="col-lg-2 col-md-4 col-6 items checking">
-    <div class="feature-box-04">
-        <div class="fetaure-image">
-            <div class="label-offer bg-red">
-                Checking
-            </div>
-            <img src="img/partners/suntrust.jpg" alt="" />
-            <div class="package-detail">
-                <div class="people-duration">
-                    <p class="float-right">
-                        <span class="icon-wallet text-theme-color"></span>
-                        <span class="person">
-                            $31,218
-                        </span>
-                    </p>
-                    <p class="float-left">
-                        <span class="day">Bal:</span>
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="no-padding border">
-            <p>Suntrust.com</p>
-            <p>Login + Password</p>
-            <p>Name + Address</p>
-            <p>Email Access</p>
-            <form action="invoice" method="GET">
-                <input type="hidden" name="item_price" value="620">
-                <input type="hidden" name="item_balance" value="31,218">
-                <input type="hidden" name="item_bank" value="Suntrust Bank">
-                <input type="hidden" name="item_type" value="Checking Account">
-                <input type="hidden" name="item_website" value="suntrust.com [Login:Password]">
-                <input type="hidden" name="item_details" value="Name + Address">
-                <input type="hidden" name="item_extra" value="Email Access">
-                <input type="hidden" name="item_image" value="img/partners/suntrust.jpg">
-                <button type="submit" class="butn medium">     
-                    <span class="margin-10px-left">
-                        <i class="fas fa-cart-plus margin-10px-right"></i>
-                        $620
-                    </span>
-                </button>
-            </form>
-        </div>
-    </div>
-    </div>
-
-
-    <div class="col-lg-2 col-md-4 col-6 items savings">
-        <div class="feature-box-04">
-            <div class="fetaure-image">
-                <div class="label-offer bg-theme">
-                    Savings Account
-                </div>
-                <img src="img/partners/suntrust.jpg" alt="" />
-                <div class="package-detail">
-                    <div class="people-duration">
-                        <p class="float-right">
-                            <span class="icon-wallet text-theme-color"></span>
-                            <span class="person">
-                                $34,952
-                            </span>
-                        </p>
-                        <p class="float-left">
-                            <span class="day">Bal:</span>
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="no-padding border">
-                <p>Suntrust.com</p>
-                <p>Login + Password</p>
-                <p>Name + Address</p>
-                <p>Email Access</p>
-                <form action="invoice" method="GET">
-                    <input type="hidden" name="item_price" value="685">
-                    <input type="hidden" name="item_balance" value="34,952">
-                    <input type="hidden" name="item_bank" value="Suntrust Bank">
-                    <input type="hidden" name="item_type" value="Savings Account">
-                    <input type="hidden" name="item_website" value="suntrust.com [Login:Password]">
-                    <input type="hidden" name="item_details" value="Name + Address">
-                    <input type="hidden" name="item_extra" value="Email Access">
-                    <input type="hidden" name="item_image" value="img/partners/suntrust.jpg">
-                    <button type="submit" class="butn medium">     
-                        <span class="margin-10px-left">
-                            <i class="fas fa-cart-plus margin-10px-right"></i>
-                         $685
-                        </span>
-                    </button>
-                </form>
-            </div>
-        </div>
-        </div>
-        
-        
-        <div class="col-lg-2 col-md-4 col-6 items savings">
-        <div class="feature-box-04">
-            <div class="fetaure-image">
-                <div class="label-offer bg-theme">
-                    Savings Account
-                </div>
-                <img src="img/partners/suntrust.jpg" alt="" />
-                <div class="package-detail">
-                    <div class="people-duration">
-                        <p class="float-right">
-                            <span class="icon-wallet text-theme-color"></span>
-                            <span class="person">
-                                $37,003
-                            </span>
-                        </p>
-                        <p class="float-left">
-                            <span class="day">Bal:</span>
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="no-padding border">
-                <p>Suntrust.com</p>
-                <p>Login + Password</p>
-                <p>Name + Address</p>
-                <p>Email Access</p>
-                <form action="invoice" method="GET">
-                    <input type="hidden" name="item_price" value="729">
-                    <input type="hidden" name="item_balance" value="37,003">
-                    <input type="hidden" name="item_bank" value="Suntrust Bank">
-                    <input type="hidden" name="item_type" value="Savings Account">
-                    <input type="hidden" name="item_website" value="suntrust.com [Login:Password]">
-                    <input type="hidden" name="item_details" value="Name + Address">
-                    <input type="hidden" name="item_extra" value="Email Access">
-                    <input type="hidden" name="item_image" value="img/partners/suntrust.jpg">
-                    <button type="submit" class="butn medium">     
-                        <span class="margin-10px-left">
-                            <i class="fas fa-cart-plus margin-10px-right"></i>
-                         $729
-                        </span>
-                    </button>
-                </form>
-            </div>
-        </div>
-        </div>
-        
-        
-        <div class="col-lg-2 col-md-4 col-6 items savings">
-        <div class="feature-box-04">
-            <div class="fetaure-image">
-                <div class="label-offer bg-theme">
-                    Savings Account
-                </div>
-                <img src="img/partners/suntrust.jpg" alt="" />
-                <div class="package-detail">
-                    <div class="people-duration">
-                        <p class="float-right">
-                            <span class="icon-wallet text-theme-color"></span>
-                            <span class="person">
-                                $41,720
-                            </span>
-                        </p>
-                        <p class="float-left">
-                            <span class="day">Bal:</span>
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="no-padding border">
-                <p>Suntrust.com</p>
-                <p>Login + Password</p>
-                <p>Name + Address</p>
-                <p>Email Access</p>
-                <form action="invoice" method="GET">
-                    <input type="hidden" name="item_price" value="803">
-                    <input type="hidden" name="item_balance" value="41,720">
-                    <input type="hidden" name="item_bank" value="Suntrust Bank">
-                    <input type="hidden" name="item_type" value="Savings Account">
-                    <input type="hidden" name="item_website" value="suntrust.com [Login:Password]">
-                    <input type="hidden" name="item_details" value="Name + Address">
-                    <input type="hidden" name="item_extra" value="Email Access">
-                    <input type="hidden" name="item_image" value="img/partners/suntrust.jpg">
-                    <button type="submit" class="butn medium">     
-                        <span class="margin-10px-left">
-                            <i class="fas fa-cart-plus margin-10px-right"></i>
-                            $803
-                        </span>
-                    </button>
-                </form>
-            </div>
-        </div>
-        </div>
-        
-        
-        <div class="col-lg-2 col-md-4 col-6 items savings">
-        <div class="feature-box-04">
-            <div class="fetaure-image">
-                <div class="label-offer bg-theme">
-                    Savings Account
-                </div>
-                <img src="img/partners/suntrust.jpg" alt="" />
-                <div class="package-detail">
-                    <div class="people-duration">
-                        <p class="float-right">
-                            <span class="icon-wallet text-theme-color"></span>
-                            <span class="person">
-                                $43,410
-                            </span>
-                        </p>
-                        <p class="float-left">
-                            <span class="day">Bal:</span>
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="no-padding border">
-                <p>Suntrust.com</p>
-                <p>Login + Password</p>
-                <p>Name + Address</p>
-                <p>Email Access</p>
-                <form action="invoice" method="GET">
-                    <input type="hidden" name="item_price" value="855">
-                    <input type="hidden" name="item_balance" value="43,410">
-                    <input type="hidden" name="item_bank" value="Suntrust Bank">
-                    <input type="hidden" name="item_type" value="Savings Account">
-                    <input type="hidden" name="item_website" value="suntrust.com [Login:Password]">
-                    <input type="hidden" name="item_details" value="Name + Address">
-                    <input type="hidden" name="item_extra" value="Email Access">
-                    <input type="hidden" name="item_image" value="img/partners/suntrust.jpg">
-                    <button type="submit" class="butn medium">     
-                        <span class="margin-10px-left">
-                            <i class="fas fa-cart-plus margin-10px-right"></i>
-                             $855
-                        </span>
-                    </button>
-                </form>
-            </div>
-        </div>
-        </div>
-        
-        <div class="col-lg-2 col-md-4 col-6 items checking">
-            <div class="feature-box-04">
-                <div class="fetaure-image">
-                    <div class="label-offer bg-red">
-                        Checking
-                    </div>
-                    <img src="img/partners/suntrust.jpg" alt="" />
-                    <div class="package-detail">
-                        <div class="people-duration">
-                            <p class="float-right">
-                                <span class="icon-wallet text-theme-color"></span>
-                                <span class="person">
-                                    $47,629
-                                </span>
-                            </p>
-                            <p class="float-left">
-                                <span class="day">Bal:</span>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="no-padding border">
-                    <p>Suntrust.com</p>
-                    <p>Login + Password</p>
-                    <p>Name + Address</p>
-                    <p>Email Access</p>
-                    <form action="invoice" method="GET">
-                        <input type="hidden" name="item_price" value="916">
-                        <input type="hidden" name="item_balance" value="47,629">
-                        <input type="hidden" name="item_bank" value="Suntrust Bank">
-                        <input type="hidden" name="item_type" value="Checking Account">
-                        <input type="hidden" name="item_website" value="suntrust.com [Login:Password]">
-                        <input type="hidden" name="item_details" value="Name + Address">
-                        <input type="hidden" name="item_extra" value="Email Access">
-                        <input type="hidden" name="item_image" value="img/partners/suntrust.jpg">
-                        <button type="submit" class="butn medium">     
-                            <span class="margin-10px-left">
-                                <i class="fas fa-cart-plus margin-10px-right"></i>
-                                $916
-                            </span>
-                        </button>
-                    </form>
-                </div>
-        </div>
-        </div>
-        
-        <div class="col-lg-2 col-md-4 col-6 items checking">
-            <div class="feature-box-04">
-                <div class="fetaure-image">
-                    <div class="label-offer bg-red">
-                        Checking
-                    </div>
-                    <img src="img/partners/suntrust.jpg" alt="" />
-                    <div class="package-detail">
-                        <div class="people-duration">
-                            <p class="float-right">
-                                <span class="icon-wallet text-theme-color"></span>
-                                <span class="person">
-                                    $50,835
-                                </span>
-                            </p>
-                            <p class="float-left">
-                                <span class="day">Bal:</span>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="no-padding border">
-                    <p>Suntrust.com</p>
-                    <p>Login + Password</p>
-                    <p>Name + Address</p>
-                    <p>Email Access</p>
-                    <form action="invoice" method="GET">
-                        <input type="hidden" name="item_price" value="957">
-                        <input type="hidden" name="item_balance" value="50,835">
-                        <input type="hidden" name="item_bank" value="Suntrust Bank">
-                        <input type="hidden" name="item_type" value="Checking Account">
-                        <input type="hidden" name="item_website" value="suntrust.com [Login:Password]">
-                        <input type="hidden" name="item_details" value="Name + Address">
-                        <input type="hidden" name="item_extra" value="Email Access">
-                        <input type="hidden" name="item_image" value="img/partners/suntrust.jpg">
-                        <button type="submit" class="butn medium">     
-                            <span class="margin-10px-left">
-                                <i class="fas fa-cart-plus margin-10px-right"></i>
-                                $957
-                            </span>
-                        </button>
-                    </form>
-                </div>
-            </div>
-            </div>
-    
-    
-
-
-    
-</div>
-</div>
-</div>
-</section>
-<!-- end project section -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- start clients section -->
-<div class="section-clients bg-light-gray">
-<div class="container-fluid">
-<div class="owl-carousel owl-theme clients" id="clients">
-<div class="item"><img alt="partner-image" src="img/partners/bbt.jpg"></div>
-<div class="item"><img alt="partner-image" src="img/partners/bbva.jpg"></div>
-<div class="item"><img alt="partner-image" src="img/partners/chase.jpg"></div>
-<div class="item"><img alt="partner-image" src="img/partners/citi.jpg"></div>
-<div class="item"><img alt="partner-image" src="img/partners/huntington.jpg"></div>
-<div class="item"><img alt="partner-image" src="img/partners/nfcu.jpg"></div>
-<div class="item"><img alt="partner-image" src="img/partners/pnc.jpg"></div>
-<div class="item"><img alt="partner-image" src="img/partners/suntrust.jpg"></div>
-<div class="item"><img alt="partner-image" src="img/partners/woodforest.jpg"></div>
-<div class="item"><img alt="partner-image" src="img/partners/chime.jpg"></div>
-<div class="item"><img alt="partner-image" src="img/partners/boa.jpg"></div>
-</div>
-</div>
-</div>
-<!-- end clients section -->
-
-
-</div>
-<!-- end main-wrapper section -->
-
-<!-- start switcher section -->
-<div id="style-switcher">
-<a href="javascript:void(0)" class="switcher-setting"><i class="fa fa-cog fa-spin"></i></a>
-
-
-<div class="choose-color">
-    <h2>Change Theme Color</h2>
-<ul class="colors" id="color1">
+<div class="page-sidebar-inner">
+<div class="page-sidebar-menu">
+<ul class="accordion-menu">
 <li>
-    <a href="javascript:void(0)" class="style1"></a>
+    <a href="dashboard.html">
+        <i class="menu-icon icon-home4"></i><span>Home Page</span>
+    </a>
+</li>    
+<li>
+    <a href="huntington.html">
+        <i class="menu-icon">
+            <img src="images/huntington.jpg" class="kaimage">
+        </i>
+        <span>Huntington Bank</span>
+    </a>
 </li>
 <li>
-    <a href="javascript:void(0)" class="style2"></a>
+    <a href="woodforest.html">
+        <i class="menu-icon">
+            <img src="images/woodforest.jpg" class="kaimage">
+        </i>
+        <span>Woodforest Bank</span>
+    </a>
 </li>
 <li>
-    <a href="javascript:void(0)" class="style3"></a>
+    <a href="barclays.html">
+        <i class="menu-icon">
+            <img src="images/barclays.jpg" class="kaimage">
+        </i>
+        <span>Barclays Bank</span>
+    </a>
 </li>
 <li>
-    <a href="javascript:void(0)" class="style4"></a>
+    <a href="bbt.html">
+        <i class="menu-icon">
+            <img src="images/bbt.jpg" class="kaimage">
+        </i>
+        <span>BB&T Bank</span>
+    </a>
 </li>
 <li>
-    <a href="javascript:void(0)" class="style5"></a>
+    <a href="citi.html">
+        <i class="menu-icon">
+            <img src="images/citi.jpg" class="kaimage">
+        </i>
+        <span>Citi Bank</span>
+    </a>
 </li>
 <li>
-    <a href="javascript:void(0)" class="style6"></a>
+    <a href="bbva.html">
+        <i class="menu-icon">
+            <img src="images/bbva.jpg" class="kaimage">
+        </i>
+        <span>BBVA Bank</span>
+    </a>
 </li>
 <li>
-    <a href="javascript:void(0)" class="style7"></a>
+    <a href="chase.html">
+        <i class="menu-icon">
+            <img src="images/chase.jpg" class="kaimage">
+        </i>
+        <span>Chase Bank</span>
+    </a>
 </li>
 <li>
-    <a href="javascript:void(0)" class="style8"></a>
+    <a href="nfcu.html">
+        <i class="menu-icon">
+            <img src="images/nfcu.jpg" class="kaimage">
+        </i>
+        <span>NFCU Bank</span>
+    </a>
+</li>
+<li>
+    <a href="rbc.html">
+        <i class="menu-icon">
+            <img src="images/rbc.jpg" class="kaimage">
+        </i>
+        <span>RBC Bank</span>
+    </a>
+</li>
+<li>
+    <a href="pnc.html">
+        <i class="menu-icon">
+            <img src="images/pnc.jpg" class="kaimage">
+        </i>
+        <span>PNC Bank</span>
+    </a>
+</li>
+
+
+ 
+<li>
+    <a href="suntrust.html">
+        <i class="menu-icon">
+            <img src="images/suntrust.jpg" class="kaimage">
+        </i>
+        <span>SunTrust Bank</span>
+    </a>
+</li>
+<li>
+    <a href="scotia.html">
+        <i class="menu-icon">
+            <img src="images/scotia.jpg" class="kaimage">
+        </i>
+        <span>Scotia Bank</span>
+    </a>
+</li>
+<li>
+    <a href="cashout.html">
+        <i class="menu-icon">
+            <img src="images/paypal.jpg" class="kaimage">
+        </i>
+        <span>Cashout Method</span>
+    </a>
+</li>
+
+<li class="menu-divider"></li>
+<li>
+    <a href="javascript:void(0);">
+        <i class="menu-icon icon-public"></i>
+        <span>Bank Logs</span>
+        <span class="label label-danger">7.1</span>
+    </a>
 </li>
 </ul>
 </div>
 </div>
-<!-- end switcher section -->
+</div>
+<!-- end page sidebar -->
 
-<!-- start scroll to top -->
-<a href="javascript:void(0)" class="scroll-to-top"><i class="fas fa-angle-up" aria-hidden="true"></i></a>
-<!-- end scroll to top -->
+<!-- start page content -->
+<div class="page-content">
+    <!-- start page header -->
+    <div class="page-header">
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+<!-- Brand and toggle get grouped for better mobile display -->
+<div class="navbar-header">
+<div class="logo-sm">
+<a href="javascript:void(0)" id="sidebar-toggle-button" style="padding: 10px 15px; background: white; border-radius: 5px;">
+    <i class="fa fa-angle-right" style="font-size: 1.2rem;  color: black;"></i>
+</a>
+<a class="logo-box" href="dashboard.html">
+    <span id="displayNameHolder">HOME PAGE</span>
+    
+</a>
+<ul class="nav navbar-nav navbar-right">
+<li style="float: right;" class="dropdown user-dropdown">
+    <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+        <img src="images/07.gif" id="photoHolder" alt="" class="rounded-circle keimage">
+    </a>
+       <ul class="dropdown-menu dropdown-lg dropdown-content">
+        <li style="padding: 5px;" class="drop-title">
+            <a style="font-weight: 700; color: red; font-size: 1.2rem;" href="lockscreen.html">
+                Log Out
+            </a>
+        </li>
+        <li class="drop-title" style="padding: 5px">
+            <button type="button" class="btn btn-info" style="font-size: 1.2rem; font-weight: 700; color: #000;" data-toggle="modal" data-target="#exampleModal" data-whatever="@bankloginusa">
+                Telegram Channel
+            </button>
+        </li>
+        <li class="drop-title" style="padding: 5px">
+            <button type="button" class="btn btn-bitcoin" style="font-size: 1.2rem; font-weight: 700;" data-toggle="modal" data-target="#myModal">
+                Notifications
+            </button>
+        </li>
 
-<!-- all js include start -->
+    </ul>  
+</li>    
+</ul>
+</div>        
+</div>
 
-<script src="js/core.min.js"></script>
-<script src="js/main.js"></script>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li><a href="javascript:void(0)" id="collapsed-sidebar-toggle-button"><i class="fa fa-bars"></i></a></li>
+                        <li><a href="javascript:void(0)" id="toggle-fullscreen"><i class="fa fa-expand"></i></a></li>
+                 
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">                
+                        <li class="dropdown">
+                            <button type="button" class="btn btn-info" style="font-size: 1.2rem; font-weight: 700; color: #000;" data-toggle="modal" data-target="#exampleModal" data-whatever="@bankloginusa">
+                                Telegram Channel
+                            </button>
+                            <button type="button" class="btn btn-bitcoin" style="font-size: 1.2rem; font-weight: 700;" data-toggle="modal" data-target="#myModal">
+                                Notifications
+                            </button>
+                        </li>
+                        <li style="padding: 5px;" class="dropdown user-dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                <img src="img/avatars/user-dropdown.jpg" alt="" class="rounded-circle">
+                            </a>
+                                <ul class="dropdown-menu">
+                                    <li><a style="font-weight: 700; font-size: 1.1rem; color: red;" href="lockscreen.html">Log Out</a></li>
+                                </ul>
+                        </li>
+                    </ul>
+                </div>
+                <!-- navbar-collapse -->
+            </div>
+            <!-- /.container-fluid -->
+        </nav>
+    </div>
+    <!-- end page header -->
 
 
-<script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-app.js"></script>
-<script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-auth.js"></script>
+            <!-- start page inner -->
+            <div class="page-inner">
+                <!-- start page main wrapper -->
+                <div id="main-wrapper">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="cark card-white">
+                                <div class="card-body">
+                                    <div class="table-responsive table-bordered">
 
-<script>
-  var firebaseConfig = {
+<table id="example" class="display table table-success" style="width:100%">
+<thead>
+<tr>
+    <th>Balance</th> 
+    <th>Info</th>
+    <th>BUY</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+    <td>$20,058</td>
+    <td>BUSINESS CHECKING Suntrust.com [Login:Password]+ AN/RN+ [Email attached ]</td>
+    <td>
+    <form action="invoice.html" method="GET">
+    <input type="hidden" name="prod_id" value="400">
+    <input type="hidden" name="prod_bank" value="Suntrust Bank [BUSINESS CHECKING]">
+    <input type="hidden" name="prod_balance" value="Balance: $20,058">
+    <input type="hidden" name="prod_type" value="Suntrust.com [Login:Password]+AN/RN+[Email attached ]">
+    <button type="submit" class="btn btn-success btn-addon">
+        <i class="fas fa-cart-plus" style="margin-right: 5px;"></i>
+        $400
+    </button>
+    </form>
+    </td>
+</tr> 
+
+<tr>
+    <td>$20,721</td>
+    <td>CHECKING ACCOUNT Suntrust.com [Login:Password]+ AN/RN+ [Email attached ]</td>
+    <td>
+    <form action="invoice.html" method="GET">
+    <input type="hidden" name="prod_id" value="414">
+    <input type="hidden" name="prod_bank" value="Suntrust Bank [CHECKING ACCOUNT]">
+    <input type="hidden" name="prod_balance" value="Balance: $20,721">
+    <input type="hidden" name="prod_type" value="Suntrust.com [Login:Password]+AN/RN+[Email attached ]">
+    <button type="submit" class="btn btn-success btn-addon">
+        <i class="fas fa-cart-plus" style="margin-right: 5px;"></i>
+        $414
+    </button>
+    </form>
+    </td>
+</tr> 
+
+<tr>
+    <td>$14,538</td>
+    <td>JOINT ACCOUNT Suntrust.com [Login:Password]+ AN/RN+ [Email attached ]</td>
+    <td>
+    <form action="invoice.html" method="GET">
+    <input type="hidden" name="prod_id" value="290">
+    <input type="hidden" name="prod_bank" value="Suntrust Bank [JOINT ACCOUNT]">
+    <input type="hidden" name="prod_balance" value="Balance: $14,538">
+    <input type="hidden" name="prod_type" value="Suntrust.com [Login:Password]+AN/RN+[Email attached ]">
+    <button type="submit" class="btn btn-success btn-addon">
+        <i class="fas fa-cart-plus" style="margin-right: 5px;"></i>
+        $290
+    </button>
+    </form>
+    </td>
+</tr> 
+
+
+<tr>
+    <td>$14,428</td>
+    <td>CHECKING ACCOUNT Suntrust.com [Login:Password]+ AN/RN+ [Email attached ]</td>
+    <td>
+    <form action="invoice.html" method="GET">
+    <input type="hidden" name="prod_id" value="285">
+    <input type="hidden" name="prod_bank" value="Suntrust Bank [BUSINESS CHECKING]">
+    <input type="hidden" name="prod_balance" value="Balance: $14,428">
+    <input type="hidden" name="prod_type" value="Suntrust.com [Login:Password]+AN/RN+[Email attached ]">
+    <button type="submit" class="btn btn-success btn-addon">
+        <i class="fas fa-cart-plus" style="margin-right: 5px;"></i>
+        $285
+    </button>
+    </form>
+    </td>
+</tr> 
+
+<tr>
+    <td>$15,257</td>
+    <td>CHECKING ACCOUNT Suntrust.com [Login:Password]+ AN/RN+ [Email attached ]</td>
+    <td>
+    <form action="invoice.html" method="GET">
+    <input type="hidden" name="prod_id" value="305">
+    <input type="hidden" name="prod_bank" value="Suntrust Bank [CHECKING ACCOUNT]">
+    <input type="hidden" name="prod_balance" value="Balance: $15,257">
+    <input type="hidden" name="prod_type" value="Suntrust.com [Login:Password]+AN/RN+[Email attached ]">
+    <button type="submit" class="btn btn-success btn-addon">
+        <i class="fas fa-cart-plus" style="margin-right: 5px;"></i>
+        $305
+    </button>
+    </form>
+    </td>
+</tr> 
+
+
+<tr>
+    <td>$19,039</td>
+    <td>CHECKING ACCOUNT Suntrust.com [Login:Password]+ AN/RN+ [Email attached ]</td>
+    <td>
+    <form action="invoice.html" method="GET">
+    <input type="hidden" name="prod_id" value="380">
+    <input type="hidden" name="prod_bank" value="Suntrust Bank [CHECKING ACCOUNT]">
+    <input type="hidden" name="prod_balance" value="Balance: $19,039">
+    <input type="hidden" name="prod_type" value="Suntrust.com [Login:Password]+AN/RN+[Email attached ]">
+    <button type="submit" class="btn btn-success btn-addon">
+        <i class="fas fa-cart-plus" style="margin-right: 5px;"></i>
+        $380
+    </button>
+    </form>
+    </td>
+</tr> 
+
+
+<tr>
+    <td>$29,152</td>
+    <td>CHECKING ACCOUNT Suntrust.com [Login:Password]+ AN/RN+ [Email attached ]</td>
+    <td>
+    <form action="invoice.html" method="GET">
+    <input type="hidden" name="prod_id" value="583">
+    <input type="hidden" name="prod_bank" value="Suntrust Bank [CHECKING ACCOUNT]">
+    <input type="hidden" name="prod_balance" value="Balance: $29,152">
+    <input type="hidden" name="prod_type" value="Suntrust.com [Login:Password]+AN/RN+[Email attached ]">
+    <button type="submit" class="btn btn-success btn-addon">
+        <i class="fas fa-cart-plus" style="margin-right: 5px;"></i>
+        $583
+    </button>
+    </form>
+    </td>
+</tr> 
+
+
+<tr>
+    <td>$25,158</td>  
+    <td>CHECKING ACCOUNT Suntrust.com [Login:Password]+ AN/RN+ [Email attached ]</td>
+    <td>
+    <form action="invoice.html" method="GET">
+    <input type="hidden" name="prod_id" value="503">
+    <input type="hidden" name="prod_bank" value="Suntrust Bank [CHECKING ACCOUNT]">
+    <input type="hidden" name="prod_balance" value="Balance: $25,158">
+    <input type="hidden" name="prod_type" value="Suntrust.com [Login:Password]+AN/RN+[Email attached ]">
+    <button type="submit" class="btn btn-success btn-addon">
+        <i class="fas fa-cart-plus" style="margin-right: 5px;"></i>
+        $503
+    </button>
+    </form>
+    </td>
+</tr> 
+
+<tr>
+    <td>$31,236</td>
+    <td>JOINT ACCOUNT Suntrust.com [Login:Password]+ AN/RN+ [Email attached ]</td>
+    <td>
+    <form action="invoice.html" method="GET">
+    <input type="hidden" name="prod_id" value="624">
+    <input type="hidden" name="prod_bank" value="Suntrust Bank [JOINT ACCOUNT]">
+    <input type="hidden" name="prod_balance" value="Balance: $31,236">
+    <input type="hidden" name="prod_type" value="Suntrust.com [Login:Password]+AN/RN+[Email attached ]">
+    <button type="submit" class="btn btn-success btn-addon">
+        <i class="fas fa-cart-plus" style="margin-right: 5px;"></i>
+        $624
+    </button>
+    </form>
+    </td>
+</tr> 
+
+
+<tr>
+    <td>$28,717</td>
+    <td>CHECKING ACCOUNT Suntrust.com [Login:Password]+ AN/RN+ [Email attached ]</td>
+    <td>
+    <form action="invoice.html" method="GET">
+    <input type="hidden" name="prod_id" value="574">
+    <input type="hidden" name="prod_bank" value="Suntrust Bank [CHECKING ACCOUNT]">
+    <input type="hidden" name="prod_balance" value="Balance: $28,717">
+    <input type="hidden" name="prod_type" value="Suntrust.com [Login:Password]+AN/RN+[Email attached ]">
+    <button type="submit" class="btn btn-success btn-addon">
+        <i class="fas fa-cart-plus" style="margin-right: 5px;"></i>
+        $574
+    </button>
+    </form>
+    </td>
+</tr>
+
+<tr>
+    <td>$17,596</td>
+    <td>CHECKING ACCOUNT Suntrust.com [Login:Password]+ AN/RN+ [Email attached ]</td>
+    <td>
+    <form action="invoice.html" method="GET">
+    <input type="hidden" name="prod_id" value="346">
+    <input type="hidden" name="prod_bank" value="Suntrust Bank [CHECKING ACCOUNT]">
+    <input type="hidden" name="prod_balance" value="Balance: $17,596">
+    <input type="hidden" name="prod_type" value="Suntrust.com [Login:Password]+AN/RN+[Email attached ]">
+    <button type="submit" class="btn btn-success btn-addon">
+        <i class="fas fa-cart-plus" style="margin-right: 5px;"></i>
+        $346
+    </button>
+    </form>
+    </td>
+</tr>
+
+
+<tr>
+    <td>$18,915</td>
+    <td>SAVINGS ACCOUNT Suntrust.com [Login:Password]+ AN/RN+ [Email attached ]</td>
+    <td>
+    <form action="invoice.html" method="GET">
+    <input type="hidden" name="prod_id" value="378">
+    <input type="hidden" name="prod_bank" value="Suntrust Bank [SAVINGS ACCOUNT]">
+    <input type="hidden" name="prod_balance" value="Balance: $18,915">
+    <input type="hidden" name="prod_type" value="Suntrust.com [Login:Password]+AN/RN+[Email attached ]">
+    <button type="submit" class="btn btn-success btn-addon">
+        <i class="fas fa-cart-plus" style="margin-right: 5px;"></i>
+        $378
+    </button>
+    </form>
+    </td>
+</tr> 
+
+
+<tr>
+    <td>$14,817</td>
+    <td>CHECKING ACCOUNT Suntrust.com [Login:Password]+ AN/RN+ [Email attached ]</td>
+    <td>
+    <form action="invoice.html" method="GET">
+    <input type="hidden" name="prod_id" value="296">
+    <input type="hidden" name="prod_bank" value="Suntrust Bank [CHECKING ACCOUNT]">
+    <input type="hidden" name="prod_balance" value="Balance: $14,817">
+    <input type="hidden" name="prod_type" value="Suntrust.com [Login:Password]+AN/RN+[Email attached ]">
+    <button type="submit" class="btn btn-success btn-addon">
+        <i class="fas fa-cart-plus" style="margin-right: 5px;"></i>
+        $296
+    </button>
+    </form>
+    </td>
+</tr>
+
+<tr>
+    <td>$26,024</td>
+    <td>CHECKING ACCOUNT Suntrust.com [Login:Password]+ AN/RN+ [Email attached ]</td>
+    <td>
+    <form action="invoice.html" method="GET">
+    <input type="hidden" name="prod_id" value="520">
+    <input type="hidden" name="prod_bank" value="Suntrust Bank [CHECKING ACCOUNT]">
+    <input type="hidden" name="prod_balance" value="Balance: $26,024">
+    <input type="hidden" name="prod_type" value="Suntrust.com [Login:Password]+AN/RN+[Email attached ]">
+    <button type="submit" class="btn btn-success btn-addon">
+        <i class="fas fa-cart-plus" style="margin-right: 5px;"></i>
+        $520
+    </button>
+    </form>
+    </td>
+</tr> 
+
+<tr>
+    <td>$28,209</td>  
+    <td>SAVINGS ACCOUNT Suntrust.com [Login:Password]+ AN/RN+ [Email attached ]</td>
+    <td>
+    <form action="invoice.html" method="GET">
+    <input type="hidden" name="prod_id" value="564">
+    <input type="hidden" name="prod_bank" value="Suntrust Bank [SAVINGS ACCOUNT]">
+    <input type="hidden" name="prod_balance" value="Balance: $28,209">
+    <input type="hidden" name="prod_type" value="Suntrust.com [Login:Password]+AN/RN+[Email attached ]">
+    <button type="submit" class="btn btn-success btn-addon">
+        <i class="fas fa-cart-plus" style="margin-right: 5px;"></i>
+        $564
+    </button>
+    </form>
+    </td>
+</tr> 
+
+<tr>
+    <td>$28,446</td>
+    <td>CHECKING ACCOUNT Suntrust.com [Login:Password]+ AN/RN+ [Email attached ]</td>
+    <td>
+    <form action="invoice.html" method="GET">
+    <input type="hidden" name="prod_id" value="569">
+    <input type="hidden" name="prod_bank" value="Suntrust Bank [CHECKING ACCOUNT]">
+    <input type="hidden" name="prod_balance" value="Balance: $28,446">
+    <input type="hidden" name="prod_type" value="Suntrust.com [Login:Password]+AN/RN+[Email attached ]">
+    <button type="submit" class="btn btn-success btn-addon">
+        <i class="fas fa-cart-plus" style="margin-right: 5px;"></i>
+        $569
+    </button>
+    </form>
+    </td>
+</tr> 
+
+
+
+
+<tr>
+    <td>$30,427</td>
+    <td>CHECKING ACCOUNT Suntrust.com [Login:Password]+ AN/RN+ [Email attached ]</td>
+    <td>
+    <form action="invoice.html" method="GET">
+    <input type="hidden" name="prod_id" value="608">
+    <input type="hidden" name="prod_bank" value="Suntrust Bank [CHECKING ACCOUNT]">
+    <input type="hidden" name="prod_balance" value="Balance: $30,427">
+    <input type="hidden" name="prod_type" value="Suntrust.com [Login:Password]+AN/RN+[Email attached ]">
+    <button type="submit" class="btn btn-success btn-addon">
+        <i class="fas fa-cart-plus" style="margin-right: 5px;"></i>
+        $608
+    </button>
+    </form>
+    </td>
+</tr>       
+</tbody>
+</table>
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
+                    <!-- Row -->
+                </div>
+                <!-- end page main wrapper -->
+                <div class="page-footer">
+                    <p>Copyright &copy; 2021 Bank Logs All rights reserved.</p>
+                </div>
+            </div>
+
+
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title" id="exampleModalLabel">
+                                New message
+                            </h4>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <form>
+                                <div class="form-group">
+                                    <label for="recipient-name" class="control-label">Channel username:</label>
+                                    <input type="text" class="form-control" id="recipient-name">
+                                </div>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-dismiss="modal">
+                                Close
+                            </button>
+                            <a href="https://t.me/s/bankloginusa" target="_blank" class="btn btn-primary">
+                                Join Channel
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title" id="myModalLabel">Recent Sales</h4>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="alert alert-success alert-dismissible" role="alert">          
+                                Added 3 New 
+                                <a href="huntington.html" class="alert-link">Huntington Bank Logs</a>
+                                20:00
+                            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                            </div>
+                            <div class="alert alert-default alert-dismissible" role="alert">
+                                Sold
+                                <a href="woodforest.html" class="alert-link">Woodforest Bank Log</a>
+                                Balance: $16,702
+                                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="alert alert-info alert-dismissible" role="alert">
+                                Sold
+                                <a href="barclays.html" class="alert-link">Barclays Bank Log</a>
+                                Balance: $13,212
+                                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="alert alert-warning alert-dismissible" role="alert">
+                                Sold
+                                <a href="chase.html" class="alert-link">Chase Bank Log</a>
+                                Balance: $11,243
+                                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="alert alert-success alert-dismissible mb-0" role="alert">
+                                Sold
+                                <a href="bbva.html" class="alert-link">BBVA Bank Log</a>
+                                Balance: $16,980
+                                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                        </div>    
+    
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <!-- end page content -->
+    </div>
+    <!-- end page container -->
+
+    <script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-auth.js"></script>
+    
+    <script>
+ var firebaseConfig = {
     apiKey: "AIzaSyDGwhFbFiCm9IDTNQwf69atH_MmUu9eMUs",
     authDomain: "bankloginusa.firebaseapp.com",
     projectId: "bankloginusa",
@@ -1394,11 +710,43 @@ SAVINGS
     measurementId: "G-SKYMPP3KX6"
   };
   // Initialize Firebase
-  firebase.initializeApp(firebaseConfig);
-</script>
-<script src="js/profile.js"></script>
+  firebase.initializeApp(firebaseConfig); 
+    </script>
+    <script src="js/profile.js"></script>
 
+    <!-- all js include start -->
+
+    <!-- jQuery -->
+    <script src="plugins/jquery/jquery-3.1.0.min.js"></script>
+
+    <!-- bootstrap -->
+    <script src="plugins/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- slimscroll -->
+    <script src="plugins/jquery-slimscroll/jquery.slimscroll.min.js"></script>
+
+    <!-- uniform -->
+    <script src="plugins/uniform/js/jquery.uniform.standalone.js"></script>
+
+    <!-- switchery -->
+    <script src="plugins/switchery/switchery.min.js"></script>
+
+    <!-- datatables -->
+    <script src="plugins/datatables/js/jquery.datatables.min.js"></script>
+
+    <!-- datepicker -->
+    <script src="plugins/bootstrap-datepicker/js/bootstrap-datepicker.js"></script>
+
+    <!-- table-data -->
+    <script src="js/pages/table-data.js"></script>
+
+    <!-- custom scripts -->
+    <script src="js/main.js"></script>
+
+    <!-- ui modal -->
+<script src="js/pages/ui-modals.js"></script>
 
 </body>
+
 
 </html>
