@@ -1,0 +1,599 @@
+
+<!doctype html>
+<html lang="en">
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<head>
+    <meta charset="utf-8">
+    <title>DarkNet</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="csrf-token" content="3fea5dcc21de284ea151ccbaf3cddad4">
+  	<link href="assets/img/favicon.ico" rel="icon">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Gothic+A1" rel="stylesheet">
+    <link href="assets/theme//css/theme.css" rel="stylesheet" type="text/css" media="all" />
+   <script type="text/javascript" src="assets/theme//js/jquery.min.js"></script>
+	 <link rel="stylesheet" href="assets/amaran/jquery.css">
+	 <script src="assets/amaran/jquery.js"></script>
+<style>
+.authentication-bg {
+    background-image: url(assets/img/bg-pattern-dark.png);
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(52, 58, 64);
+}
+</style>
+  </head>
+  <body class="authentication-bg">
+    <div class="layout layout-nav-top">
+      <div class="navbar navbar-expand-lg bg-dark navbar-dark sticky-top">
+        <a class="navbar-brand" href="./profile.html">
+          <img alt="" id="photoHolder" src="assets/img/07.gif" style="width:60px; border-radius: 3px;"/>
+        </a>
+        <h1 class="btn btn-primary" style="margin-top: 10px;" id="jinaHolder">BANK LOGINS</h1>
+        <div class="d-flex  align-items-center">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse justify-content-between" id="navbar-collapse">
+          <ul class="navbar-nav" style="font-size: 15px !important;">
+
+
+
+            <li class="nav-item ">
+              <div style="margin: 5px 10px;" class="dropdown">
+                <button class="btn btn-danger btn-block dropdown-toggle" type="button" class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-expanded="false" aria-haspopup="true" id="nav-dropdown-2">
+                  USA BANKS
+                </button>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="account/huntington.html">
+                    <img src="assets/img/huntington.jpg" style="border-radius: 3px;" width="30px" >
+                    Huntington Bank                  
+                  </a>
+                  <a class="dropdown-item" href="account/chase.html">
+                    <img src="assets/img/chase.jpg" style="border-radius: 3px;" width="30px" >
+                    Chase Bank                  
+                  </a>
+                  <a class="dropdown-item" href="account/citi.html">
+                    <img src="assets/img/citi.jpg" style="border-radius: 3px;" width="30px" >
+                    Citi Bank
+                  </a>
+                  <a class="dropdown-item" href="account/pnc.html">
+                    <img src="assets/img/pnc.jpg" style="border-radius: 3px;" width="30px" >
+                    PNC Bank
+                  </a>
+                  <a class="dropdown-item" href="account/woodforest.html">
+                    <img src="assets/img/woodforest.jpg" style="border-radius: 3px;" width="30px" >
+                    Woodforest Bank
+                  </a>
+                  <a class="dropdown-item" href="account/nfcu.html">
+                    <img src="assets/img/nfcu.jpg" style="border-radius: 3px;" width="30px" >
+                    NFCU Bank
+                  </a>
+                  <a class="dropdown-item" href="account/bbva.html">
+                    <img src="assets/img/bbva.jpg" style="border-radius: 3px;" width="30px" >
+                    BBVA Bank
+                  </a><a class="dropdown-item" href="account/bbt.html">
+                    <img src="assets/img/bbt.jpg" style="border-radius: 3px;" width="30px" >
+                    BB&amp;T Bank
+                  </a>
+                  <a class="dropdown-item" href="account/suntrust.html">
+                    <img src="assets/img/suntrust.jpg" style="border-radius: 3px;" width="30px" >
+                    Suntrust Bank
+                  </a>
+                </div>
+              </div><li class="nav-item ">
+
+              <div style="margin: 5px 10px;" class="dropdown">
+                <button class="btn btn-danger btn-block dropdown-toggle" type="button" class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-expanded="false" aria-haspopup="true" id="nav-dropdown-2">
+                  CANADA BANKS
+                </button>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="account/scotia.html">
+                    <img src="assets/img/scotia.jpg" style="border-radius: 3px;" width="30px" >
+                    Scotia Bank
+                  </a>
+                  <a class="dropdown-item" href="account/rbc.html">
+                    <img src="assets/img/rbc.jpg" style="border-radius: 3px;" width="30px" >
+                    RBC Bank
+                  </a>
+                  </div>
+              </div><li class="nav-item ">
+
+              <div style="margin: 5px 10px;" class="dropdown">
+                <button class="btn btn-danger btn-block dropdown-toggle" type="button" class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-expanded="false" aria-haspopup="true" id="nav-dropdown-2">
+                  UK BANKS
+                </button>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="account/barclays.html">
+                    <img src="assets/img/barclays.jpg" style="border-radius: 3px;" width="30px" >
+                    Barclays Bank
+                  </a>
+                </div>
+              </div>
+
+          </ul>
+
+          <div class="d-lg-flex align-items-center">
+            <div style="margin: 5px 10px;" class="dropdown mx-lg-2">
+              <a href="lockscreen.html">
+              <button class="btn btn-info btn-block" type="button" id="newContentButton">
+              Log Out
+              </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="main-container">
+        <div class="container-fluid mt-5">
+
+
+
+     <div class="row"> 
+
+
+
+
+
+
+
+<div class="col-xs-12 col-6 col-md-3" style="padding-left: 5px;padding-right: 5px;">
+<div class="kanban-col" tabindex="0">
+<div class="card-list">
+<div class="card-list-header">
+<h6 id="displayNameHolder">50% off ✔️💸💰</h6>
+
+</div>
+<div class="card-list-body" tabindex="0">
+
+
+<div class="card card-kanban" tabindex="0">
+  <div class="card-body">
+    <div class="card-title">
+      <h6>
+        <a href="account/huntington.html" style="font-weight: 600;">
+          <img src="assets/img/huntington.jpg" style="border-radius: 3px;" width="30px" >
+          Huntington Bank
+        </a>
+      </h6>
+        <p>
+          <a href="account/huntington.html">Added 24 logs</a> 
+          <a class="text-danger" href="account/huntington.html">
+          <br>Huntington.com [Login:Password]+Name+Address+[Email access]
+        </a></p>
+    </div>
+    <div class="card-meta d-flex justify-content-between">
+      <span class="text-small text-info text-right">
+        <a href="account/huntington.html">
+          2021-03-24
+        </a>
+        </span>
+    </div>
+  </div>
+  </div>
+
+
+
+<div class="card card-kanban" tabindex="0">
+<div class="card-body">                  
+  <div class="card-title">            
+      <h6>
+        <a href="account/woodforest.html">
+          <img src="assets/img/woodforest.jpg" style="border-radius: 3px;" width="30px" >
+          Woodforest Bank
+        </a>
+      </h6>
+      <p>
+        <a href="account/woodforest.html">Added 19 logs</a> 
+        
+        <a class="text-danger" href="account/woodforest.html">
+        <br>
+        Woodforest.com [Login:Password]+ Name+Address+ [Email access]
+      </a></p>                      
+  </div>
+  <div class="card-meta d-flex justify-content-between">                     
+    <span class="text-small text-info text-right">
+      <a href="account/woodforest.html">
+        2021-03-25
+      </a>
+    </span>
+  </div>
+</div>
+</div>
+
+
+
+<div class="card card-kanban" tabindex="0">
+  <div class="card-body">
+    <div class="card-title">
+      <h6>
+        <a href="account/citi.html">
+          <img src="assets/img/citi.jpg" style="border-radius: 3px;" width="30px" >
+          Citi Bank
+        </a>
+      </h6>
+        <p>
+          <a href="account/citi.html">Added 19 logs</a>  
+          <a class="text-danger" href="account/citi.html">
+          <br>Citi.com [Login:Password]+ Name+Address+ [Email access]
+        </a></p>
+    </div>
+    <div class="card-meta d-flex justify-content-between">
+      <span class="text-small text-info text-right">
+        <a href="account/citi.html">
+          2021-03-24
+        </a>
+      </span>
+    </div>
+  </div>
+  </div>
+
+
+
+
+
+</div>
+</div>
+</div>
+</div>
+
+
+
+<div class="col-xs-12 col-6 col-md-3" style="padding-left: 5px;padding-right: 5px;">
+  <div class="kanban-col" tabindex="0">
+  <div class="card-list">
+  <div class="card-list-header">
+  <h6>50% off ✔️💸💰</h6>
+  
+  </div>
+  <div class="card-list-body" tabindex="0">
+  
+  
+  <div class="card card-kanban" tabindex="0">
+  <div class="card-body">                  
+    <div class="card-title">            
+      <h6>
+        <a href="account/nfcu.html">
+          <img src="assets/img/nfcu.jpg" style="border-radius: 3px;" width="30px" >
+          NFCU Bank
+        </a>
+      </h6>
+        <p>
+          <a href="account/nfcu.html">Added 21 logs</a> 
+          <a class="text-danger" href="account/nfcu.html">
+          <br>
+          Nfcu.com [Login:Password]+Name+AN/RN+[Email access]
+        </a></p>                      
+    </div>
+    <div class="card-meta d-flex justify-content-between">                     
+      <span class="text-small text-info text-right">
+        <a href="account/nfcu.html">
+          2021-03-22
+        </a>
+      </span>
+    </div>
+  </div>
+  </div>
+  
+  
+  <div class="card card-kanban" tabindex="0">
+  <div class="card-body">
+    <div class="card-title">
+      <h6>
+        <a href="account/bbva.html">
+          <img src="assets/img/bbva.jpg" style="border-radius: 3px;" width="30px" >
+          BBVA Bank
+        </a>
+      </h6>
+        <p>
+          <a href="account/bbva.html">Added 12 logs</a> 
+          <a class="text-danger" href="account/bbva.html">
+          <br>bbvausa.com[Login:Password]+Name+AN/RN+[Email access]
+        </a></p>
+    </div>
+    <div class="card-meta d-flex justify-content-between">
+      <span class="text-small text-info text-right">
+        <a href="account/bbva.html">
+          2021-03-24
+        </a>
+      </span>
+    </div>
+  </div>
+  </div>
+  
+  <div class="card card-kanban" tabindex="0">
+    <div class="card-body">
+      <div class="card-title">
+        <h6>
+          <a href="account/suntrust.html">
+            <img src="assets/img/suntrust.jpg" style="border-radius: 3px;" width="30px" >
+            Suntrust Bank
+          </a>
+        </h6>
+          <p>
+            <a href="account/suntrust.html">Added 19 logs</a> 
+            <a class="text-danger" href="account/suntrust.html">
+            <br>Suntrust.com [Login:Password]+AN/RN+[Email attached ]
+          </a></p>
+      </div>
+      <div class="card-meta d-flex justify-content-between">
+        <span class="text-small text-info text-right">
+          <a href="account/suntrust.html">
+            2021-03-26
+          </a>
+        </span>
+      </div>
+    </div>
+    </div>
+  
+
+
+  </div>
+  </div>
+  </div>
+  </div>
+
+
+
+
+<div class="col-xs-12 col-6 col-md-3" style="padding-left: 5px;padding-right: 5px;">
+<div class="kanban-col" tabindex="0">
+<div class="card-list">
+<div class="card-list-header">
+<h6>50% off ✔️💸💰</h6>
+
+</div>
+<div class="card-list-body" tabindex="0">
+
+
+<div class="card card-kanban" tabindex="0">
+<div class="card-body">                    
+  <div class="card-title">                     
+    <h6>
+      <a href="account/bbt.html">
+        <img src="assets/img/bbt.jpg" style="border-radius: 3px;" width="30px" >
+        BB&T Bank
+      </a>
+    </h6>
+      <p>
+        <a href="account/bbt.html">Added 27 logs</a> 
+        
+        <a class="text-danger" href="account/bbt.html">
+        <br>
+        bbt.com[Login:Password]+Name+AN/RN+[Email access]
+      </a></p>                  
+  </div>
+  <div class="card-meta d-flex justify-content-between">                     
+    <span class="text-small text-info text-right">
+      <a href="account/bbt.html">
+        2021-03-23
+      </a>
+    </span>
+  </div>
+</div>
+</div>
+
+<div class="card card-kanban" tabindex="0">
+<div class="card-body">                    
+  <div class="card-title">                     
+      <h6>
+        <h6>
+          <a href="account/chase.html">
+            <img src="assets/img/chase.jpg" style="border-radius: 3px;" width="30px" >
+            Chase Bank
+          </a>
+        </h6>
+      <p>
+        <a href="account/chase.html">Added 22 logs</a> 
+        <a class="text-danger" href="account/chase.html">
+        <br>
+        Chase.com [Login:Password]+ Name+Address+ [Email access]
+      </a></p>                  
+  </div>
+  <div class="card-meta d-flex justify-content-between">                     
+    <span class="text-small text-info text-right">
+      <a href="account/chase.html">
+        2021-03-26
+      </a>
+    </span>
+  </div>
+</div>
+</div>
+
+
+
+
+<div class="card card-kanban" tabindex="0">
+  <div class="card-body">
+    <div class="card-title">
+      <h6>
+        <a href="account/pnc.html">
+          <img src="assets/img/pnc.jpg" style="border-radius: 3px;" width="30px" >
+          PNC Bank
+        </a>
+      </h6>
+        <p>
+          <a href="account/pnc.html">Added 22 logs</a> 
+          <a class="text-danger" href="account/pnc.html">
+          <br>CHECKING ACCOUNT Pnc.com [Login:Password]+ Name+Address+ [Email access]
+        </a></p>
+    </div>
+    <div class="card-meta d-flex justify-content-between">
+      <span class="text-small text-info text-right">
+        <a href="account/pnc.html">
+          2021-03-21
+        </a>
+      </span>
+    </div>
+  </div>
+  </div>
+
+
+
+
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+
+<div class="col-xs-12 col-6 col-md-3" style="padding-left: 5px;padding-right: 5px;">
+<div class="kanban-col" tabindex="0">
+<div class="card-list">
+<div class="card-list-header">
+<h6>50% off ✔️💸💰</h6>
+</div>
+<div class="card-list-body" tabindex="0">
+
+<div class="card card-kanban" tabindex="0">
+  <div class="card-body">                        
+    <div class="card-title">                          
+      <h6>
+        <a href="account/barclays.html">
+          <img src="assets/img/barclays.jpg" style="border-radius: 3px;" width="30px" >
+          Barclays Bank
+        </a>
+      </h6>
+        <p>
+          <a href="account/barclays.html">Added 22 logs</a> 
+          <a class="text-danger" href="account/barclays.html">
+          <br>
+          Surname+[Sortcode:Passcode]+[Memorable Words]
+          </a></p>                            
+    </div>
+    <div class="card-meta d-flex justify-content-between">                          
+      <span class="text-small text-info text-right">
+        <a href="account/barclays.html">
+          2021-03-21
+        </a>
+      </span>
+    </div>
+  </div>
+</div>     
+
+<div class="card card-kanban" tabindex="0">
+  <div class="card-body">
+    <div class="card-title">
+        <h6>
+          <a href="account/rbc.html">
+            <img src="assets/img/rbc.jpg" style="border-radius: 3px;" width="30px" >
+            RBC Bank
+          </a>
+        </h6>
+        <p>
+          <a href="account/rbc.html">Added 26 logs</a> 
+          <a class="text-danger" href="account/rbc.html">
+          <br>
+          rbcroyalbank.com[Login:Password]+Name+Q/A+[Email access]
+        </a></p>
+    </div>
+    <div class="card-meta d-flex justify-content-between">
+      <span class="text-small text-info text-right">
+        <a href="account/rbc.html">
+          2021-03-25
+        </a>
+      </span>
+    </div>
+  </div>
+</div>
+
+<div class="card card-kanban" tabindex="0">  
+  <div class="card-body">                         
+    <div class="card-title">                          
+        <h6>
+          <a href="account/scotia.html">
+          <img src="assets/img/scotia.jpg" style="border-radius: 3px;" width="30px" >
+          Scotia Bank
+          </a>
+        </h6>
+        <p>
+          <a href="account/scotia.html">Added 18 logs</a> 
+          <a class="text-danger" href="account/scotia.html">
+          <br>
+          scotiabank.com[Login:Password]+Name+Q/A+[Email access]
+        </a></p>                      
+    </div>
+    <div class="card-meta d-flex justify-content-between">                            
+      <span class="text-small text-info text-right">
+        <a href="account/scotia.html">
+          2021-03-26
+        </a>
+      </span>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</div>  
+</div>
+
+
+
+
+
+</div>
+</div>
+</div>
+</div>
+
+<script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-auth.js"></script>
+
+<script>
+  var firebaseConfig = {
+    apiKey: "AIzaSyDGwhFbFiCm9IDTNQwf69atH_MmUu9eMUs",
+    authDomain: "bankloginusa.firebaseapp.com",
+    projectId: "bankloginusa",
+    storageBucket: "bankloginusa.appspot.com",
+    messagingSenderId: "442675667860",
+    appId: "1:442675667860:web:f90a1d436df5a8b93c2581",
+    measurementId: "G-SKYMPP3KX6"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+<script src="js/profile.js"></script>
+
+<script type="text/javascript" src="assets/theme/js/popper.min.js"></script>
+<script type="text/javascript" src="assets/theme/js/bootstrap.js"></script>
+<script type="text/javascript" src="assets/theme/js/autosize.min.js"></script>
+<script type="text/javascript" src="assets/theme/js/flatpickr.min.js"></script>
+<script type="text/javascript" src="assets/theme/js/draggable.bundle.legacy.js"></script>
+<script type="text/javascript" src="assets/theme/js/swap-animation.js"></script>
+<script type="text/javascript" src="assets/theme/js/list.min.js"></script>
+
+<style type="text/css">
+.layout-switcher{ position: fixed; bottom: 0; left: 50%; transform: translateX(-50%) translateY(73px); color: #fff; transition: all .35s ease; background: #343a40; border-radius: .25rem .25rem 0 0; padding: .75rem; z-index: 999; }
+.layout-switcher:not(:hover){ opacity: .95; }
+.layout-switcher:not(:focus){ cursor: pointer; }
+.layout-switcher-head{ font-size: .75rem; font-weight: 600; text-transform: uppercase; }
+.layout-switcher-head i{ font-size: 1.25rem; transition: all .35s ease; }
+.layout-switcher-body{ transition: all .55s ease; opacity: 0; padding-top: .75rem; transform: translateY(24px); text-align: center; }
+.layout-switcher:focus{ opacity: 1; outline: none; transform: translateX(-50%) translateY(0); }
+.layout-switcher:focus .layout-switcher-head i{ transform: rotateZ(180deg); opacity: 0; }
+.layout-switcher:focus .layout-switcher-body{ opacity: 1; transform: translateY(0); }
+.layout-switcher-option{ width: 72px; padding: .25rem; border: 2px solid rgba(255,255,255,0); display: inline-block; border-radius: 4px; transition: all .35s ease; }
+.layout-switcher-option.active{ border-color: #007bff; }
+.layout-switcher-icon{ width: 100%; border-radius: 4px; }
+.layout-switcher-body:hover .layout-switcher-option:not(:hover){ opacity: .5; transform: scale(0.9); }
+@media all and (max-width: 990px){ .layout-switcher{ min-width: 250px; } }
+@media all and (max-width: 767px){ .layout-switcher{ display: none; } }
+</style>
+<div class="layout-switcher" tabindex="1">
+<div class="layout-switcher-head d-flex justify-content-between">
+<span>Select Layout</span>
+<i class="material-icons">arrow_drop_up</i>
+</div>
+<div class="layout-switcher-body">
+
+</div>
+</div>
+
+</body>
+
+
+</html>
