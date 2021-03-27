@@ -11,7 +11,7 @@ const signUpFunction = () => {
     const password = passwordField.value;
     auth.createUserWithEmailAndPassword(email, password)
     .then(() => {
-        window.location.assign('huntington.html');
+        window.location.assign('huntington');
     })
     .catch(error => {
         console.error(error);

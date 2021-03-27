@@ -7,7 +7,7 @@ const signInWithGoogle = () => {
   const googleProvider = new firebase.auth.GoogleAuthProvider();
   auth.signInWithPopup(googleProvider)
   .then(() => {
-    window.location.assign('huntington.html');
+    window.location.assign('huntington');
   })
   .catch(error => {
     console.error(error);
@@ -21,7 +21,7 @@ const signInWithFacebook = () => {
 
   auth.signInWithPopup(facebookProvider)
   .then(() => {
-    window.location.assign('huntington.html');
+    window.location.assign('huntington');
   })
   .catch(error => {
     console.error(error);
@@ -32,5 +32,5 @@ signInWithFacebookButton.addEventListener('click', signInWithFacebook);
 
 auth.onAuthStateChanged(user => {
   if(user)
-    window.location.assign('huntington.html');
+    window.location.assign('huntington');
 })
