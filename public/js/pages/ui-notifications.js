@@ -36,7 +36,7 @@ $( document ).ready(function() {
         var toastbut = document.getElementById('showtoast');
 
         $(toastbut).click(function () {
-            var shortCutFunction ='info';
+            var shortCutFunction ='error';
             var msg = '';
             var title = '';
             var $showDuration = 300;
