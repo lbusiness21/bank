@@ -3117,7 +3117,7 @@ body:not(.page-sidebar-fixed) .page-sidebar .slimScrollDiv
     border-radius:4px
 }
 .page-sidebar-menu ul li.active-page>a{
-    color:#fff;
+    color: #212529;
     font-weight:500;
     background:lime;
     border-radius:4px;
