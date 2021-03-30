@@ -11,7 +11,6 @@
     display:table;
     text-align:center
 }
-
 .loader{
     display:table-cell;
     vertical-align:middle;
@@ -22,7 +21,7 @@
 .loader-icon{
     width:80px;
     height:80px;
-    border:5px solid lime;
+    border:5px solid #ff4c52;
     border-right-color:#eee;
     border-radius:50%;
     position:relative;
@@ -46,7 +45,7 @@ body{
     height:100%;
     background-color:#526069;
     font-weight:400;
-    color:#121D33
+    color:#3d464c
 }
 a{
     color:#2b2b2b
@@ -633,7 +632,7 @@ label.error{
     color:#526069
 }
 .label.label-primary{
-    background: lime
+    background:#ff4c52
 }
 .label.label-success{
     background:#63CB89
@@ -645,8 +644,7 @@ label.error{
     background:#F1C205
 }
 .label.label-danger{
-    background:lime;
-    color: #000;
+    background:#EC5E69
 }
 .icon-xs{
     font-size:12px
@@ -664,7 +662,7 @@ label.error{
     color:#E2E2E2
 }
 .icon-state-primary{
-    color:lime
+    color:#ff4c52
 }
 .icon-state-success{
     color:#63CB89
@@ -805,7 +803,7 @@ blockquote small:before{
     border-color:#E6E8EB
 }
 .card-primary{
-    border-color:lime
+    border-color:#ff4c52
 }
 .card-success{
     border-color:#63CB89
@@ -827,8 +825,8 @@ blockquote small:before{
     color:#fff !important
 }
 .card-primary>.card-heading{
-    background-color:lime;
-    border-color:lime
+    background-color:#ff4c52;
+    border-color:#ff4c52
 }
 .card-success>.card-heading{
     background-color:#63CB89;
@@ -1024,14 +1022,14 @@ blockquote small:before{
 }
 .btn-default.active,
 .btn-default:active{
-    border-color:lime !important;
+    border-color:#ff4c52 !important;
     background-color:#ececec;
-    color:lime
+    color:#ff4c52
 }
 .open>.dropdown-toggle.btn-default{
-    border-color:lime !important;
+    border-color:#ff4c52 !important;
     background-color:#ececec;
-    color:lime
+    color:#ff4c52
 }
 .btn-default.active:hover,
 .btn-default:active:hover{
@@ -1213,7 +1211,7 @@ s.btn-rss{
     background:transparent;
     border-color:transparent;
     border-right:1px solid #B6BABD !important;
-    border-bottom:none;color:#121D33
+    border-bottom:none;color:#3D464D
 }
 .tabs-left>.nav-tabs .active>a{
     border-color:transparent;
@@ -1261,7 +1259,7 @@ s.btn-rss{
     background:transparent;
     border-color:transparent;
     border-left:1px solid #B6BABD !important;
-    border-bottom:none;color:#121D33
+    border-bottom:none;color:#3D464D
 }
 .tabs-right>.nav-tabs .active>a{
     border-color:transparent;
@@ -1437,24 +1435,24 @@ input.form-control.input-rounded{
     display:inline-block;
     padding:5px 14px;
     background-color:#fff;
-    border:1px solid lime
+    border:1px solid #ff4c52;
     border-radius:15px
 }
 .pager .disabled>a{
     opacity:.65;
-    border:1px solid lime;
-    color:lime
+    border:1px solid #ff4c52;
+    color:#ff4c52
 }
 .pager .disabled>a:focus,
 .pager .disabled>a:hover{
     opacity:.65;
-    border:1px solid lime;
-    color:lime
+    border:1px solid #ff4c52;
+    color:#ff4c52
 }
 .pager .disabled>span{
     opacity:.65;
-    border:1px solid lime;
-    color:lime
+    border:1px solid #ff4c52;
+    color:#ff4c52
 }
 .dd-handle{
     border-radius:0;
@@ -1536,13 +1534,13 @@ table.dataTable thead .sorting_desc{
 .dataTables_wrapper .dataTables_paginate .paginate_button.current{
     border:none;
     box-shadow:none;
-    background:lime;
+    background:#ff4c52;
     color:#fff !important
 }
 .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover{
     border:none;
     box-shadow:none;
-    background:lime;
+    background:#ff4c52;
     color:#fff !important
 }
 .dataTables_wrapper .dataTables_paginate .paginate_button:hover{
@@ -2042,7 +2040,7 @@ th{
 }
 .accordion-style .btn-link{
     background:rgba(0,0,0,0.03);
-    color:#121D33;
+    color:#3d464c;
     font-size:14px;
     line-height:20px;
     position:relative;
@@ -2053,15 +2051,15 @@ th{
     border-radius:4px;
     padding:15px 30px 15px 15px;
     text-decoration:none;
-    background:lime
+    background:#ff4c52;
     color:#fff
 }
 .accordion-style .btn-link.collapsed{
     background:rgba(0,0,0,0.03);
-    color:#121D33
+    color:#3d464c
 }
 .accordion-style .btn-link:hover{
-    background:lime
+    background:#ff4c52;
     color:#fff;
     border:none;
     text-decoration:none
@@ -2076,7 +2074,7 @@ th{
     transform:none;
     width:auto;
     top:15px;
-    color:#121D33
+    color:#3d464c
 }
 .accordion-style .btn-link:after{
     background:none;
@@ -2198,7 +2196,7 @@ th{
     z-index:41
 }
 .page-header .navbar-default{
-    background-color: #121D33;
+    background-color:#2a3542;
     border:0;
     margin-bottom:0;
     height:56px;
@@ -2605,7 +2603,7 @@ th{
     background:transparent;
     border-color:transparent;
     border-bottom:1px solid #B6BABD;
-    color:#121D33
+    color:#3D464D
 }
 .page-right-sidebar .nav-tabs>li.active>a{
     color:#555;
@@ -2919,7 +2917,7 @@ th{
 }
 .chat-bubble.them span.chat-bubble-text{
     margin-left:10px;
-    background:lime;
+    background:#ff4c52;
     color:#fff;
     border-radius:4px;
     border-top-left-radius:0px
@@ -2949,7 +2947,7 @@ th{
 }
 .chat-bubble.them span.chat-bubble-text:first-child:before{
     border-width:0 10px 10px 0;
-    border-color:transparent lime transparent transparent;
+    border-color:transparent #ff4c52 transparent transparent;
     position:absolute;
     top:0;
     left:-9px
@@ -2998,7 +2996,7 @@ span.chat-title{
 }
 .page-sidebar{
     width:240px;
-    background:#121D33;
+    background:#2a3542;
     min-height:100%;
     float:left;
     z-index:100;
@@ -3028,8 +3026,8 @@ body:not(.page-sidebar-fixed) .page-sidebar .slimScrollDiv
 .logo-box{
     width:240px;
     padding:15px 20px 10px 25px;
-    color:lime !important;
-    background:#121D33;
+    color:#ff4c52 !important;
+    background:#2a3542;
     font-weight:800;
     font-size:18px;
     display:block;
@@ -3073,11 +3071,11 @@ body:not(.page-sidebar-fixed) .page-sidebar .slimScrollDiv
     color:#fff
 }
 .page-sidebar-menu .has-sub>a.active{
-    color:lime;
+    color:#ff4c52;
     font-weight:500
 }
 .page-sidebar-menu .has-sub a.active i{
-    color:lime
+    color:#ff4c52
 }
 .page-sidebar-fixed .page-sidebar .accordion-menu{
     margin-top:10px
@@ -3092,9 +3090,9 @@ body:not(.page-sidebar-fixed) .page-sidebar .slimScrollDiv
 }
 .page-sidebar-menu ul li a{
     display:block;
-    font-weight:500;
-    font-size:15px;
-    padding:10px 5px;
+    font-weight:400;
+    font-size:14px;
+    padding:10px 15px;
     color:#fff;
     line-height:1.5 !important;
     -webkit-font-smoothing:antialiased;
@@ -3110,13 +3108,13 @@ body:not(.page-sidebar-fixed) .page-sidebar .slimScrollDiv
 .page-sidebar-menu .accordion-menu>li.active>a{
     color:#fff;
     font-weight:500;
-    background:lime;
+    background:#ff4c52;
     border-radius:4px
 }
 .page-sidebar-menu ul li.active-page>a{
     color:#fff;
     font-weight:500;
-    background:lime;
+    background:#ff4c52;
     border-radius:4px;
     position:relative
 }
@@ -3148,7 +3146,7 @@ body:not(.page-sidebar-fixed) .page-sidebar .slimScrollDiv
     display:block;
     width:100%;
     height:1px;
-    background-color:lime;
+    background-color:#ff4c52;
     margin:10px 0
 }
 .page-sidebar-menu li.has-sub a i.accordion-icon{
@@ -3170,8 +3168,8 @@ body:not(.page-sidebar-fixed) .page-sidebar .slimScrollDiv
     -moz-transform:rotate(-90deg);
     -ms-transform:rotate(-90deg);
     -o-transform:rotate(-90deg);
-    color:lime;
-    color:lime;
+    color:#ff4c52;
+    color:#ff4c52
 }
 .page-sidebar-menu ul li .sub-menu a:hover{
     color:#fff
@@ -3195,10 +3193,10 @@ body:not(.page-sidebar-fixed) .page-sidebar .slimScrollDiv
     color:rgba(255,255,255,0.8)
 }
 .accordion-menu .sub-menu li.active a{
-    color:lime
+    color:#ff4c52
 }
 .accordion-menu .sub-menu li.active a:hover{
-    color:lime !important
+    color:#ff4c52 !important
 }
 .page-sidebar-collapsed .accordion-menu .sub-menu li.active a{
     color:#fff
@@ -3341,7 +3339,7 @@ body:not(.page-sidebar-fixed) .page-sidebar .slimScrollDiv
     left:60px;
     z-index:9999;
     padding-bottom:14px;
-    background-color:lime
+    background-color:#ff4c52
 }
 .page-sidebar-collapsed .page-sidebar-menu ul li .sub-menu a{
     opacity:1;
@@ -3355,7 +3353,7 @@ body:not(.page-sidebar-fixed) .page-sidebar .slimScrollDiv
 }
 .page-sidebar-collapsed .page-sidebar-menu>ul>li:hover>a{
     width:230px;
-    background:lime
+    background:#ff4c52
 }
 .page-sidebar-collapsed .page-sidebar.fixed-sidebar-scroll .slimScrollDiv{
     width:260px !important
@@ -3640,7 +3638,7 @@ body.error-page{
     margin-right:3px
 }
 .timeline-options a:hover{
-    color:lime
+    color:#ff4c52
 }
 .timeline-comment{
     overflow:hidden;
@@ -3908,10 +3906,10 @@ body.error-page{
     padding:5px 8px
 }
 .email-menu ul li a:hover{
-    color:lime
+    color:#ff4c52
 }
 .email-menu ul li.active a{
-    color:lime
+    color:#ff4c52
 }
 .email-menu ul li a i{
     margin-right:10px;
@@ -3950,15 +3948,15 @@ body.error-page{
     display:block
 }
 .email .email-reply .btn-default{
-    color:#121D33
-    border-color:#121D33
+    color:#3d464c;
+    border-color:#3d464c
 }
 .email .email-reply .btn-default:hover,
 .email .email-reply .btn-default:active,
 .email .email-reply .btn-default.active,
 .email .email-reply .btn-default:focus{
-    color:#121D33 !important;
-    border-color:#121D33 !important
+    color:#3d464c !important;
+    border-color:#3d464c !important
 }
 @media screen and (max-width: 991px){
     .email-actions{
