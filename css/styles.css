@@ -3112,7 +3112,7 @@ body:not(.page-sidebar-fixed) .page-sidebar .slimScrollDiv
     color:#fff
 }
 .page-sidebar-menu .accordion-menu>li.active>a{
-    color:#fff;
+    color:#212529;
     font-weight:500;
     background:lime;
     border-radius:4px
