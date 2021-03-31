@@ -3449,7 +3449,11 @@ _::-webkit-full-page-media,_:future{
 }
 .page-footer{
     position:absolute;
-    bottom:0
+    bottom:0;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-left: 10px;
+    font-weight: 500;
 }
 
 @media screen and (max-width: 991px){
