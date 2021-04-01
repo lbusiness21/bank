@@ -3905,7 +3905,8 @@ body.error-page{
     font-weight:normal
 }
 .pricing li:nth-child(2){
-    padding:8px
+    padding:6px;
+    font-weight: 700;
 }
 #nvd1,
 #nvd2,
