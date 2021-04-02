@@ -3449,11 +3449,12 @@ _::-webkit-full-page-media,_:future{
 }
 .page-footer{
     position:absolute;
-    bottom:0;
+    bottom:10px;
     text-transform: uppercase;
     margin-top: 0;
     margin-left: 10px;
     font-weight: 500;
+    
 }
 
 @media screen and (max-width: 991px){
@@ -3874,7 +3875,7 @@ body.error-page{
 .pricing{
     text-align:center;
     border:1px solid #E5E9EC;
-    font-size:14px;
+    font-size:12px;
     padding-left:0;
     border-radius: 4px;
 }
@@ -3907,6 +3908,16 @@ body.error-page{
 .pricing li:nth-child(2){
     padding:6px;
     font-weight: 700;
+}
+@media (max-width: 500px){
+    .pricing h3{
+        font-size: 28px;
+    }
+}
+@media (max-width: 320px){
+    .pricing h3{
+        font-size: 24px;
+    }
 }
 #nvd1,
 #nvd2,
