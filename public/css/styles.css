@@ -759,7 +759,7 @@ blockquote small:before{
     border-color:#E6E8EB
 }
 .card-body{
-    padding:0;
+    padding: 0 15px;
     background: aliceblue;
 }
 .card-heading{
@@ -3416,8 +3416,7 @@ _:future{
     min-height: 100% ;
     overflow-y: hidden;
     overflow-x: hidden;
-    margin: 0;
-    padding: 0;
+    margin: 3px;
     background:aliceblue
 }
 .page-inner.no-page-title{
