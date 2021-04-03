@@ -3476,6 +3476,9 @@ _::-webkit-full-page-media,_:future{
 .jstree-icon.jstree-themeicon.fa{
     font-family:"FontAwesome" !important
 }
+
+
+/* 
 #toast-container>div{
     box-shadow:none;border-radius:4px;
     border:1px solid transparent
@@ -3501,7 +3504,7 @@ _::-webkit-full-page-media,_:future{
 }
 #toast-container>div:hover{
     box-shadow:none
-}
+} */
 .todo-nav{
     margin-top:10px
 }
