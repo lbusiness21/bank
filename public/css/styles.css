@@ -1443,7 +1443,7 @@ input.form-control.input-rounded{
     display:inline-block;
     padding:5px 14px;
     background-color:#fff;
-    border:1px solid lime
+    border:1px solid lime;
     border-radius:15px
 }
 .pager .disabled>a{
@@ -2061,7 +2061,7 @@ th{
     border-radius:4px;
     padding:15px 30px 15px 15px;
     text-decoration:none;
-    background:lime
+    background:lime;
     color:#fff
 }
 .accordion-style .btn-link.collapsed{
@@ -2069,7 +2069,7 @@ th{
     color:#121D33
 }
 .accordion-style .btn-link:hover{
-    background:lime
+    background:lime;
     color:#fff;
     border:none;
     text-decoration:none
