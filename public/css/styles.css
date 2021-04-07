@@ -75,6 +75,12 @@ a:hover{
         height: 43px;
     }
     }
+
+    @media screen and (max-width: 420px) {
+        .text-white .snail{
+            font-size: 10px;
+        }
+        }
 @media screen and (min-width: 420px) and (max-width: 1024px) {
     .eimage{
         height: 23px;
@@ -883,8 +889,11 @@ blockquote small:before{
 .bg-primary{
     background-color:#36a3f5 !important
 }
-.bg-success{
+/* .bg-success{
     background-color:#63CB90 !important
+} */
+.bg-success{
+    background-color:#ffb820 !important
 }
 .bg-info{
     background-color:#01c0d6 !important
@@ -3467,6 +3476,9 @@ _::-webkit-full-page-media,_:future{
         padding:0
     }
 }
+
+
+
 .jstree-default .jstree-clicked,
 .jstree-default li a:hover{
     background:#f1f1f1;
@@ -3776,7 +3788,7 @@ body.error-page{
     /* font-family:"Montserrat",sans-serif; */
 }
 .btn-addon {
-    font-weight: 500;
+    font-weight: 600;
 }
 .login-title span{
     margin-left:5px;
@@ -3887,6 +3899,14 @@ body.error-page{
     list-style:none;
     padding:4px;
     border-radius: 4px;
+
+}
+
+@media screen and (max-width: 508px){
+    .pricing li>h1.snail {
+        font-size: 17px;
+        padding: 4px 0;
+    }
 }
 .pricing li:first-child,
 .pricing li:last-child{
