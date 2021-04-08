@@ -17,7 +17,7 @@ $( document ).ready(function() {
 
         var getMessage = function () {
             var msgs = [
-               "$" + name + " " + 'bitcoin payment for' + " " + bank +" " + 'not detected'
+               "$" + name + " " + 'bitcoin confirmation' + "  "+ 'not detected'
             ];
             i++;
             if (i === msgs.length) {
