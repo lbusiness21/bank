@@ -3892,7 +3892,7 @@ body.error-page{
 .pricing{
     text-align:center;
     border:1px solid wheat;
-    font-size:12px;
+    font-size:14px;
     padding-left:0;
     border-radius: 4px;
 }
@@ -3907,6 +3907,9 @@ body.error-page{
     .pricing li>h1.snail {
         font-size: 17px;
         padding: 4px 0;
+    }
+    .pricing {
+        font-size: 11px;
     }
 }
 .pricing li:first-child,
