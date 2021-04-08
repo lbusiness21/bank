@@ -296,7 +296,7 @@
                                     <ul class="prizing">
                                         <li style="padding: 5px;">
                                             <div class="user-profile-card">
-                                                <img style="float: left;" id="imgHolder" src="img/avatars/profile.jpg" class="user-profile-image rounded-circle" alt="" />
+                                                <img style="float: left; border: 1px solid wheat;" id="log_image" src="img/avatars/profile.jpg" class="user-profile-image rounded-circle" alt="" />
                                                 
                                                 <div>
                                                     <h6 class="text-center m-t-sm">
@@ -311,13 +311,17 @@
                                         <li>
                                             <h3 id="the-bitcoin-amount" class="zatos" style="font-size: 2.8rem; color: black;"></h3>  
                                         </li>
-                                        <li id="the-bitcoin-bank" style="font-size: 1.1rem; font-weight: 500; color: black; padding: 5px;">
-                                        </li>
+                                       
                                         
                                         <li id="the-bitcoin-type" style="font-size: 1.1rem; font-weight: 500; color: black;  padding: 5px;"> 
                                         </li>
-                                        <li style="font-size: 1.1rem; font-weight: 500; color: black;  padding: 5px;"> 
-                                            Account & Routing Number
+                                        <li id="the-bitcoin-type1" style="font-size: 1.1rem; font-weight: 500; color: black;  padding: 5px;"> 
+                                        </li>
+                                        <li id="the-bitcoin-type2" style="font-size: 1.1rem; font-weight: 500; color: black;  padding: 5px;"> 
+                                        </li>
+                                        <li id="the-bitcoin-type3" style="font-size: 1.1rem; font-weight: 500; color: black;  padding: 5px;"> 
+                                        </li>
+                                        <li id="the-bitcoin-bank" style="font-size: 1.1rem; font-weight: 500; color: black; padding: 5px;">
                                         </li>
 
                                         <li id="emailHolder" class="text-succss" style="font-size: 1.3rem; font-weight: 500; color: black;  padding: 5px;"> 
@@ -325,7 +329,7 @@
                                         </li>
 
 
-                                        <li id="the-bitcoin-balance" style="font-size: 2rem; color: black; font-weight: 600; padding: 5px;"></li>
+                                        <li id="the-bitcoin-balance" style="font-size: 2.4rem; color: black; font-weight: 600; padding: 5px;"></li>
                                         <li style="padding: 5px;">
                                             <button type="button" id="showtoast" class="btn btn-success" style="font-size: 1.3rem; font-weight: 700;background-color: lime;">
                                                 <i class="fa fa-print"></i>
@@ -391,19 +395,28 @@
                 window.addEventListener('load', () => {
                     const params = (new URL(document.location)).searchParams;
                     const name = params.get('prod_id');
-                    const surname = ( params.get('prod_id') / 59140).toFixed(4);
+                    const surname = ( params.get('prod_id') / 59140).toFixed(6);
                     const bank = params.get('prod_bank');
                     const logtype = params.get('prod_type');
+                    const logtype1 = params.get('prod_type1');
+                    const logtype2 = params.get('prod_type2');
+                    const logtype3 = params.get('prod_type3');
+
                     const bankbalance = params.get('prod_balance');
+                    const image = params.get('prod_image');
 
                     // const d = new Date();
                     // document.getElementById("the-bitcoin-time").innerHTML = d;
     
-                    document.getElementById('the-bitcoin-amount').innerHTML = "Send: $" + name ;
+                    document.getElementById('the-bitcoin-amount').innerHTML = "Price: $" + name ;
                     document.getElementById('the-bitcoin-bank').innerHTML = bank;
                     document.getElementById('the-bitcoin-balance').innerHTML = bankbalance;
                     document.getElementById('the-bitcoin-type').innerHTML = logtype;
-                    document.getElementById('the-other-one').innerHTML =  surname + 'BTC';
+                    document.getElementById('the-bitcoin-type1').innerHTML = logtype1;
+                    document.getElementById('the-bitcoin-type2').innerHTML = logtype2;
+                    document.getElementById('the-bitcoin-type3').innerHTML = logtype3;
+                    document.getElementById('the-other-one').innerHTML =  surname + " " + 'bitcoin';
+                    document.getElementById('log_image').src = image;
                 })
             </script>
         </div>
