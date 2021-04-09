@@ -6,10 +6,8 @@
     z-index:99999;
     width:100%;
     height:100%;
-    /* overflow:visible; */
-    background:url(../images/bg.jpg) no-repeat center center/cover;
-    overflow-y: hidden;
-    overflow-x: hidden;
+    overflow:visible;
+    background:aliceblue;
     display:table;
     text-align:center
 }
@@ -22,10 +20,10 @@
     height:200px
 }
 .loader-icon{
-    width:100px;
-    height:100px;
-    border:10px solid lime;
-    border-right-color:aliceblue;
+    width:80px;
+    height:80px;
+    border:5px solid #F2920C;
+    border-right-color:#eee;
     border-radius:50%;
     position:relative;
     animation:loader-rotate 1s linear infinite;margin:0 auto
@@ -75,12 +73,6 @@ a:hover{
         height: 43px;
     }
     }
-
-    @media screen and (max-width: 420px) {
-        .text-white .snail{
-            font-size: 10px;
-        }
-        }
 @media screen and (min-width: 420px) and (max-width: 1024px) {
     .eimage{
         height: 23px;
@@ -641,7 +633,7 @@ label.error{
     color:#526069
 }
 .label.label-primary{
-    background: lime
+    background: #F2920C;
 }
 .label.label-success{
     background:#63CB89
@@ -653,7 +645,7 @@ label.error{
     background:#F1C205
 }
 .label.label-danger{
-    background:lime;
+    background:#F2920C;
     color: #000;
 }
 .icon-xs{
@@ -672,7 +664,7 @@ label.error{
     color:#E2E2E2
 }
 .icon-state-primary{
-    color:lime
+    color:#F2920C;
 }
 .icon-state-success{
     color:#63CB89
@@ -767,7 +759,7 @@ blockquote small:before{
     border-color:#E6E8EB
 }
 .card-body{
-    padding: 0 15px;
+    padding:0;
     background: aliceblue;
 }
 .card-heading{
@@ -814,7 +806,7 @@ blockquote small:before{
     border-color:#E6E8EB
 }
 .card-primary{
-    border-color:lime
+    border-color:#F2920C;
 }
 .card-success{
     border-color:#63CB89
@@ -836,8 +828,8 @@ blockquote small:before{
     color:#fff !important
 }
 .card-primary>.card-heading{
-    background-color:lime;
-    border-color:lime
+    background-color:#F2920C;
+    border-color:#F2920C;
 }
 .card-success>.card-heading{
     background-color:#63CB89;
@@ -889,11 +881,8 @@ blockquote small:before{
 .bg-primary{
     background-color:#36a3f5 !important
 }
-/* .bg-success{
-    background-color:#63CB90 !important
-} */
 .bg-success{
-    background-color:#ffb820 !important
+    background-color:#63CB90 !important
 }
 .bg-info{
     background-color:#01c0d6 !important
@@ -1003,9 +992,15 @@ blockquote small:before{
     border-color:#36a3f5
 }
 
+.btn-succezz{
+    background-color:  lime;
+    border-color: limegreen;
+    color:#212529;
+}
+
 .btn-success{
-    background-color:  #ffb820;
-    border-color:#ffb820 ;
+    background-color:  lime;
+    border-color: limegreen;
     color:#212529;
 }
 
@@ -1020,8 +1015,8 @@ blockquote small:before{
 }
 
 .btn-bitcoin{
-    background-color: #63CB90; 
-    border-color: #63CB90;
+    background-color:#ffb820;
+    border-color:#ffb820
 }
 
 
@@ -1039,14 +1034,14 @@ blockquote small:before{
 }
 .btn-default.active,
 .btn-default:active{
-    border-color:lime !important;
+    border-color:#F2920C !important;
     background-color:#ececec;
-    color:lime
+    color:#F2920C;
 }
 .open>.dropdown-toggle.btn-default{
-    border-color:lime !important;
+    border-color:#F2920C !important;
     background-color:#ececec;
-    color:lime
+    color:#F2920C;
 }
 .btn-default.active:hover,
 .btn-default:active:hover{
@@ -1452,24 +1447,24 @@ input.form-control.input-rounded{
     display:inline-block;
     padding:5px 14px;
     background-color:#fff;
-    border:1px solid lime;
+    border:1px solid #F2920C;
     border-radius:15px
 }
 .pager .disabled>a{
     opacity:.65;
-    border:1px solid lime;
-    color:lime
+    border:1px solid #F2920C;
+    color:#F2920C;
 }
 .pager .disabled>a:focus,
 .pager .disabled>a:hover{
     opacity:.65;
-    border:1px solid lime;
-    color:lime
+    border:1px solid #F2920C;
+    color:#F2920C;
 }
 .pager .disabled>span{
     opacity:.65;
-    border:1px solid lime;
-    color:lime
+    border:1px solid #F2920C;
+    color:#F2920C;
 }
 .dd-handle{
     border-radius:0;
@@ -1551,13 +1546,13 @@ table.dataTable thead .sorting_desc{
 .dataTables_wrapper .dataTables_paginate .paginate_button.current{
     border:none;
     box-shadow:none;
-    background:lime;
+    background:#F2920C;
     color:#fff !important
 }
 .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover{
     border:none;
     box-shadow:none;
-    background:lime;
+    background:#F2920C;
     color:#fff !important
 }
 .dataTables_wrapper .dataTables_paginate .paginate_button:hover{
@@ -2070,7 +2065,7 @@ th{
     border-radius:4px;
     padding:15px 30px 15px 15px;
     text-decoration:none;
-    background:lime;
+    background:#F2920C;
     color:#fff
 }
 .accordion-style .btn-link.collapsed{
@@ -2078,7 +2073,7 @@ th{
     color:#121D33
 }
 .accordion-style .btn-link:hover{
-    background:lime;
+    background:#F2920C;
     color:#fff;
     border:none;
     text-decoration:none
@@ -2936,7 +2931,7 @@ th{
 }
 .chat-bubble.them span.chat-bubble-text{
     margin-left:10px;
-    background:lime;
+    background:#F2920C;
     color:#fff;
     border-radius:4px;
     border-top-left-radius:0px
@@ -2966,7 +2961,7 @@ th{
 }
 .chat-bubble.them span.chat-bubble-text:first-child:before{
     border-width:0 10px 10px 0;
-    border-color:transparent lime transparent transparent;
+    border-color:transparent #F2920C transparent transparent;
     position:absolute;
     top:0;
     left:-9px
@@ -3045,7 +3040,7 @@ body:not(.page-sidebar-fixed) .page-sidebar .slimScrollDiv
 .logo-box{
     width:240px;
     padding:15px 20px 10px 25px;
-    color:lime !important;
+    color:#F2920C !important;
     background:#121D33;
     font-weight:800;
     font-size:18px;
@@ -3090,11 +3085,11 @@ body:not(.page-sidebar-fixed) .page-sidebar .slimScrollDiv
     color:#fff
 }
 .page-sidebar-menu .has-sub>a.active{
-    color:lime;
+    color:#F2920C;
     font-weight:500
 }
 .page-sidebar-menu .has-sub a.active i{
-    color:lime
+    color:#F2920C;
 }
 .page-sidebar-fixed .page-sidebar .accordion-menu{
     margin-top:10px
@@ -3127,13 +3122,13 @@ body:not(.page-sidebar-fixed) .page-sidebar .slimScrollDiv
 .page-sidebar-menu .accordion-menu>li.active>a{
     color:#212529;
     font-weight:500;
-    background:lime;
+    background:#F2920C;
     border-radius:4px
 }
 .page-sidebar-menu ul li.active-page>a{
     color: #212529;
     font-weight:500;
-    background:lime;
+    background:#F2920C;
     border-radius:4px;
     position:relative
 }
@@ -3165,7 +3160,7 @@ body:not(.page-sidebar-fixed) .page-sidebar .slimScrollDiv
     display:block;
     width:100%;
     height:1px;
-    background-color:lime;
+    background-color:#F2920C;
     margin:10px 0
 }
 .page-sidebar-menu li.has-sub a i.accordion-icon{
@@ -3187,8 +3182,8 @@ body:not(.page-sidebar-fixed) .page-sidebar .slimScrollDiv
     -moz-transform:rotate(-90deg);
     -ms-transform:rotate(-90deg);
     -o-transform:rotate(-90deg);
-    color:lime;
-    color:lime;
+    color:#F2920C;
+    color:#F2920C;
 }
 .page-sidebar-menu ul li .sub-menu a:hover{
     color:#fff
@@ -3212,10 +3207,10 @@ body:not(.page-sidebar-fixed) .page-sidebar .slimScrollDiv
     color:rgba(255,255,255,0.8)
 }
 .accordion-menu .sub-menu li.active a{
-    color:lime
+    color:#F2920C;
 }
 .accordion-menu .sub-menu li.active a:hover{
-    color:lime !important
+    color:#F2920C !important
 }
 .page-sidebar-collapsed .accordion-menu .sub-menu li.active a{
     color:#fff
@@ -3358,7 +3353,7 @@ body:not(.page-sidebar-fixed) .page-sidebar .slimScrollDiv
     left:60px;
     z-index:9999;
     padding-bottom:14px;
-    background-color:lime
+    background-color:#F2920C;
 }
 .page-sidebar-collapsed .page-sidebar-menu ul li .sub-menu a{
     opacity:1;
@@ -3372,7 +3367,7 @@ body:not(.page-sidebar-fixed) .page-sidebar .slimScrollDiv
 }
 .page-sidebar-collapsed .page-sidebar-menu>ul>li:hover>a{
     width:230px;
-    background:lime
+    background:#F2920C;
 }
 .page-sidebar-collapsed .page-sidebar.fixed-sidebar-scroll .slimScrollDiv{
     width:260px !important
@@ -3427,7 +3422,8 @@ _:future{
     min-height: 100% ;
     overflow-y: hidden;
     overflow-x: hidden;
-    margin: 3px;
+    margin: 0;
+    padding: 0;
     background:aliceblue
 }
 .page-inner.no-page-title{
@@ -3459,13 +3455,11 @@ _::-webkit-full-page-media,_:future{
 }
 .page-footer{
     position:absolute;
-    bottom:10px;
+    bottom:0;
     text-transform: uppercase;
     margin-top: 0;
     margin-left: 10px;
     font-weight: 500;
-    font-size: 13px;
-    
 }
 
 @media screen and (max-width: 991px){
@@ -3477,9 +3471,6 @@ _::-webkit-full-page-media,_:future{
         padding:0
     }
 }
-
-
-
 .jstree-default .jstree-clicked,
 .jstree-default li a:hover{
     background:#f1f1f1;
@@ -3489,9 +3480,6 @@ _::-webkit-full-page-media,_:future{
 .jstree-icon.jstree-themeicon.fa{
     font-family:"FontAwesome" !important
 }
-
-
-/* 
 #toast-container>div{
     box-shadow:none;border-radius:4px;
     border:1px solid transparent
@@ -3517,7 +3505,7 @@ _::-webkit-full-page-media,_:future{
 }
 #toast-container>div:hover{
     box-shadow:none
-} */
+}
 .todo-nav{
     margin-top:10px
 }
@@ -3670,7 +3658,7 @@ body.error-page{
     margin-right:3px
 }
 .timeline-options a:hover{
-    color:lime
+    color:#F2920C;
 }
 .timeline-comment{
     overflow:hidden;
@@ -3822,105 +3810,25 @@ body.error-page{
 }
 
 
-
-
-
-
-
-
-
-.prizing{
+.pricing{
     text-align:center;
-    border:1px solid wheat;
+    border:1px solid #E5E9EC;
     font-size:14px;
     padding-left:0
 }
-.prizing li{
+.pricing li{
     list-style:none;
     padding:12px 8px
 }
-.prizing li:first-child,
-.prizing li:last-child{
-    padding:20px 13px
-}
-.prizing li+li{
-    border-top:1px solid wheat
-}
-.prizing h1{
-    font-size:24px;
-    color:#2b2b2b;
-    margin-bottom:0
-}
-.prizing h3{
-    margin-bottom:0;
-    font-size:32px
-}
-.prizing span{
-    font-size:12px;
-    color:#999;
-    font-weight:normal
-}
-.prizing li:nth-child(2){
-    padding:30px 13px
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.pricing{
-    text-align:center;
-    border:1px solid wheat;
-    font-size:14px;
-    padding-left:0;
-    border-radius: 4px;
-}
-.pricing li{
-    list-style:none;
-    padding:4px;
-    border-radius: 4px;
-
-}
-
-@media screen and (max-width: 508px){
-    .pricing li>h1.snail {
-        font-size: 17px;
-        padding: 4px 0;
-    }
-    .pricing {
-        font-size: 11px;
-    }
-}
 .pricing li:first-child,
 .pricing li:last-child{
-    padding:0
+    padding:20px 13px
 }
 .pricing li+li{
     border-top:1px solid #E5E9EC
 }
 .pricing h1{
-    font-size:22px;
+    font-size:24px;
     color:#2b2b2b;
     margin-bottom:0
 }
@@ -3934,18 +3842,7 @@ body.error-page{
     font-weight:normal
 }
 .pricing li:nth-child(2){
-    padding:6px;
-    font-weight: 700;
-}
-@media (max-width: 500px){
-    .pricing h3{
-        font-size: 28px;
-    }
-}
-@media (max-width: 320px){
-    .pricing h3{
-        font-size: 24px;
-    }
+    padding:30px 13px
 }
 #nvd1,
 #nvd2,
@@ -4031,10 +3928,10 @@ body.error-page{
     padding:5px 8px
 }
 .email-menu ul li a:hover{
-    color:lime
+    color:#F2920C;
 }
 .email-menu ul li.active a{
-    color:lime
+    color:#F2920C;
 }
 .email-menu ul li a i{
     margin-right:10px;
