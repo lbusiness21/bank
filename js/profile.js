@@ -4,7 +4,7 @@ const photoHolder = document.getElementById('photoHolder');
 const jinaHolder = document.getElementById('jinaHolder');
 const imgHolder = document.getElementById('imgHolder')
 
-const invoiceHolder = document.getElementById('invoiceHolder');
+const emailHolder = document.getElementById('emailHolder');
 
 const auth = firebase.auth();
 
@@ -14,9 +14,11 @@ auth.onAuthStateChanged(user => {
         displayNameHolder.innerText = user.displayName;
         jinaHolder.innerText = user.displayName;
     }
-    if(user.photoURL)
+    if(user.photoURL) {
         photoHolder.setAttribute('src', user.photoURL);
         imgHolder.setAttribute('src', user.photoURL);
-    if(user.email)
-        invoiceHolder.innerText = "Invoice to: " + " " + user.email ;
+    }
+    if(user.email) {
+        emailHolder.innerText = "Invoice to: " + user.email;
+    }
 })
