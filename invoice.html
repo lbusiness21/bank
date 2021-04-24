@@ -326,8 +326,8 @@
                         </li>
                         <li id="the-bitcoin-type6" style="font-size: 1.4rem; font-weight: 500; color: black;  padding: 1px;"> 
                         </li>
-                        <li id="the-bitcoin-type7" style="font-size: 1.4rem; font-weight: 500; color: black;  padding: 1px;"> 
-                        </li>
+                        <!-- <li id="the-bitcoin-type7" style="font-size: 1.4rem; font-weight: 500; color: black;  padding: 1px;"> 
+                        </li> -->
                         <li id="the-bitcoin-bank" style="font-size: 1.3rem; font-weight: 500; color: black; padding: 1px;">
                         </li>
                         <li id="emailHolder" class="text-succss" style="font-size: 1.5rem; font-weight: 500; color: black;  padding: 5px;"> 
@@ -357,8 +357,8 @@
                         <strong style="font-size: 1.3rem; color: #36a3f5;">
                             Awaiting <span id="the-other-one"></span> payment...
                         </strong>
-                        <input type="text" style=" color: black; font-size: 1.1rem; font-weight: 700; border-radius: 3px;border: 2px solid black;" class="form-control" value="1AMjPsZQvqeAfnEjfk17fEUZc6rZuM9Ccp" onclick="this.select();">
-                        <img src="images/download.jpeg" />
+                        <input type="text" style=" color: black; font-size: 1.1rem; font-weight: 700; border-radius: 3px;border: 2px solid #36a3f5;" class="form-control" value="19y6HG31nUcsiQWmp5xgtzM7JECXLLvZRU" onclick="this.select();">
+                        <img src="images/download.png" style="margin-top: 5px; padding: 5px;"/>
                     </p>
                 </div>
             </div>
@@ -376,7 +376,7 @@
                     const logtype4 = params.get('prod_type4');
                     const logtype5 = params.get('prod_type5');
                     const logtype6 = params.get('prod_type6');
-                    const logtype7 = params.get('prod_type7');
+                    // const logtype7 = params.get('prod_type7');
 
                     const bankbalance = params.get('prod_balance');
                     const image = params.get('prod_image');
@@ -394,7 +394,7 @@
                     document.getElementById('the-bitcoin-type4').innerHTML = logtype4;
                     document.getElementById('the-bitcoin-type5').innerHTML = logtype5;
                     document.getElementById('the-bitcoin-type6').innerHTML = logtype6;
-                    document.getElementById('the-bitcoin-type7').innerHTML = logtype7;
+                    // document.getElementById('the-bitcoin-type7').innerHTML = logtype7;
 
                     document.getElementById('the-other-one').innerHTML =  surname + " " + 'bitcoin';
                     document.getElementById('log_image').src = image;
