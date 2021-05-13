@@ -29,7 +29,7 @@
     <link href="css/toastr.css" rel="stylesheet">
 
 </head>
-<body onload="myFunction()" oncontextmenu="return false">
+<body onload="myFunction()" oncontextmenu="return false" >
 
 <!-- start page loading -->
 <div id="preloader">
@@ -424,6 +424,21 @@
         document.getElementById('log_image4').href = image;
     });
     document.getElementById('copy-text').addEventListener('click', function(e){
+        e.preventDefault();
+        document.getElementById('text-to-copy').select();
+        var copied;
+        try{
+            copied = document.execCommand('copy');
+        } 
+        catch (ex){
+            copied = false;  
+        }
+        if(copied){
+            document.getElementById('copy-text-span').innerHTML = 'Copied';
+            document.getElementById('copy-text').style.background = 'gold';        
+        }
+  });
+  document.getElementById('text-to-copy').addEventListener('click', function(e){
         e.preventDefault();
         document.getElementById('text-to-copy').select();
         var copied;
