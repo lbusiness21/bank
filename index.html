@@ -19,7 +19,7 @@
 		<link rel="apple-touch-icon" sizes="72x72" href="img/logos/apple-touch-icon-72x72.png">
 		<link rel="apple-touch-icon" sizes="114x114" href="img/logos/apple-touch-icon-114x114.png">
 	</head>
-	<body oncontextmenu="return false">
+	<body oncontextmenu="return false" onload="timeFx()">
 
 <!-- Wrapper -->
 <div id="wrapper">
@@ -85,14 +85,30 @@
 
 <!-- Footer -->
 <footer id="footer">
-	<p style="font-size: 1rem; color: aliceblue;" class="copyright">&copy; 2021 May 11 | Build:5F80477C1FEC0</p>
+	<p style="font-size: 1rem; color: aliceblue;" class="copyright">
+		&copy; 
+		<span id="demo"> </span>
+		| Build:5F80477C1FEC0
+	</p>
 	</footer>
 
 </div>
 
 <!-- BG -->
 <div id="bg"></div>
-
+<script>
+	function timeFx() {
+		var month = new Array();
+		month[4] = "May";
+		month[5] = "June";
+		month[6] = "July";
+		var d = new Date();
+		var n = month[d.getMonth()];
+		var y = d.getFullYear();
+		var m = d.getDate();
+		document.getElementById("demo").innerHTML = n +' '  + m + ' '+ y;
+	}
+</script>
 <!-- Scripts -->
 <script src="assets/js/jquery.min.js"></script>
 <script src="assets/js/browser.min.js"></script>
