@@ -19,7 +19,7 @@ $( document ).ready(function() {
 
         var getMessage = function () {
             var msgs = [
-                toastbitcoin + " " + 'Bitcoin confirmation' + " "+ 'not detected , scan the bitcoin address and send $' + toast 
+                toastbitcoin + " " + 'Bitcoin confirmation' + " "+ 'not detected, scan the bitcoin address and send $' + toast 
              ];
             i++;
             if (i === msgs.length) {
