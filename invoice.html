@@ -27,6 +27,27 @@
     <link href="css/styles-2.css" rel="stylesheet" id="colors">
 
     <link href="css/toastr.css" rel="stylesheet">
+    <style>
+@-webkit-keyframes spinner-bordez {
+to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg); } }
+
+@keyframes spinner-bordez {
+to {
+
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg); 
+} 
+}
+
+.spinner-bordez {
+    border-color: transparent;
+    border-radius: 50%;
+    -webkit-animation: spinner-border .67s linear infinite;
+    animation: spinner-border .67s linear infinite; 
+}
+    </style>
 
 </head>
 <body onload="myFunction()" oncontextmenu="return false" >
@@ -308,7 +329,7 @@
                 <!-- <div class="text-theme-color spinner-border" 
                     role="status"></div> -->
                 <strong class="satoshinakamoto text-theme-color">
-                    <i class="fas fa-spin fa-sync-alt margin-10px-right"></i>
+                    <i class="fas fa-spin fa-sync-alt spinner-bordez margin-10px-right"></i>
                     Awaiting <span id="log_bitcoin"></span> bitcoin payment
                 </strong>
             </p>
