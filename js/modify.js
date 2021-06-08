@@ -15,7 +15,7 @@ const displayNameField = document.getElementById('displayName');
 const photoField = document.getElementById('photo');
 const editButton = document.getElementById('edit');
 
-const uidHolder = document.getElementById('uidHolder');
+const userHolder = document.getElementById('userHolder');
 
 
 
@@ -85,6 +85,6 @@ auth.onAuthStateChanged(user => {
         invoiceHolder.innerText = "Invoice to: " + " " + user.email ;
     }
     if(user.uid) {
-        uidHolder.innerText = "User ID: " + user.uid;
+        userHolder.innerText = user.uid;
     }
 })
