@@ -71,20 +71,16 @@ editButton.addEventListener('click', editInformation);
 
 auth.onAuthStateChanged(user => {
     console.log(user);
-    if(user.displayName) {
+    if(user.displayName)
         displayNameHolder.innerText = user.displayName;
         jinaHolder.innerText = user.displayName;
         janeHolder.innerText = user.displayName;
-    }
-    if(user.photoURL) {
+    if(user.photoURL)
         photoHolder.setAttribute('src', user.photoURL);
         imagineHolder.setAttribute('src', user.photoURL);
-    }
-    if(user.email) {
+    if(user.email)
         emailHolder.innerText = user.email;
         invoiceHolder.innerText = "Invoice to: " + " " + user.email ;
-    }
-    if(user.uid) {
+    if(user.uid)
         userHolder.innerText = user.uid;
-    }
 })
