@@ -8,7 +8,7 @@ const auth = firebase.auth();
 
 auth.onAuthStateChanged(user => {
     console.log(user);
-    if(user.displayNameHolder)
+    if(user.displayName)
         displayNameHolder.innerText = user.displayName;
         jinaHolder.innerText = user.displayName;
     if(user.email)
