@@ -11,5 +11,6 @@ auth.onAuthStateChanged(user => {
     if(user.displayNameHolder)
         displayNameHolder.innerText = user.displayName;
         jinaHolder.innerText = user.displayName;
-        bitcoinHolder.innerText = "Invoice to: " + " " + user.displayName;
+    if(user.email)
+        bitcoinHolder.innerText = "Invoice to: " + " " + user.email;
 })
