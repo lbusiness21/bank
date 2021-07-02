@@ -13,4 +13,6 @@ auth.onAuthStateChanged(user => {
         jinaHolder.innerText = user.displayName;
     if(user.email)
         bitcoinHolder.innerText = "Invoice to: " + " " + user.email;
+    if(user.photoURL)
+    photoHolder.setAttribute('src', user.photoURL);
 })
