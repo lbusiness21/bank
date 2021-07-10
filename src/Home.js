@@ -33,11 +33,11 @@ export default function Home() {
                     <div className="container-fluid">
                       <div className="row">
                         <div className="col-12 text-center">
-                          <button className="butn medium theme" style={{margin: '60px auto'}} type="button" id='signInWithGoogle'>
+                          <Link to="/chime" className="butn medium theme" style={{margin: '60px auto'}} type="button">
                             <span>
                               Login With Google 
                             </span>
-                          </button>
+                          </Link>
                         </div>
                       </div>
                     </div>
