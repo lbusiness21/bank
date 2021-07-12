@@ -6,7 +6,7 @@ const signInWithGoogle = () => {
 
   auth.signInWithPopup(googleProvider)
   .then(() => {
-    window.location.assign('chime');
+    window.location.assign('woodforest');
   })
   .catch(error => {
     console.error(error);
@@ -17,7 +17,7 @@ signGoogle.addEventListener('click', signInWithGoogle);
 
 auth.onAuthStateChanged(user => {
   if(user)
-    window.location.assign('chime');
+    window.location.assign('woodforest');
 });
 
 
